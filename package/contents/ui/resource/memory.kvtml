@@ -1,0 +1,5202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE kvtml PUBLIC "kvtml2.dtd" "http://edu.kde.org/kvtml/kvtml2.dtd">
+<kvtml version="2.0">
+  <information>
+    <generator>Parley 1.0.0</generator>
+    <title>EstudiarEspanol</title>
+    <author>Dimitris Kardarakos</author>
+    <contact>dimkard@gmail.com</contact>
+    <license>GPLv2+ (GNU General Public License version 2 or later)</license>
+    <comment>Studying spanish</comment>
+    <date>2015-09-26</date>
+    <category>Languages</category>
+  </information>
+  <identifiers>
+    <identifier id="0">
+      <name>Spanish</name>
+      <locale>es</locale>
+      <article>
+        <singular>
+          <definite>
+            <male>el</male>
+            <female>la</female>
+            <neutral>lo</neutral>
+          </definite>
+          <indefinite>
+            <male>un</male>
+            <female>una</female>
+          </indefinite>
+        </singular>
+        <plural>
+          <definite>
+            <male>los</male>
+            <female>las</female>
+          </definite>
+          <indefinite>
+            <male>unos</male>
+            <female>unas</female>
+          </indefinite>
+        </plural>
+      </article>
+      <personalpronouns>
+        <singular>
+          <firstperson>yo</firstperson>
+          <secondperson>tú</secondperson>
+          <thirdpersonneutralcommon>él/ella</thirdpersonneutralcommon>
+        </singular>
+        <plural>
+          <firstperson>nosotros/as</firstperson>
+          <secondperson>vosotros/as</secondperson>
+          <thirdpersonneutralcommon>ellos/as</thirdpersonneutralcommon>
+        </plural>
+      </personalpronouns>
+      <tense>Pretérito perfecto</tense>
+      <tense>Imperativo</tense>
+      <tense>Pretérito indefinido</tense>
+      <tense>Gerundio</tense>
+      <tense>Subjuntivo presente</tense>
+      <tense>Presente</tense>
+      <tense>Futuro imperfecto</tense>
+      <tense>Condicional simple</tense>
+      <tense>Participio</tense>
+    </identifier>
+    <identifier id="1">
+      <name>Greek</name>
+      <locale>el</locale>
+    </identifier>
+  </identifiers>
+  <entries>
+    <entry id="0">
+      <translation id="0">
+        <text>ligado</text>
+      </translation>
+      <translation id="1">
+        <text>σχετιζόμενο, δεμένο</text>
+        <grade>
+          <currentgrade>3</currentgrade>
+          <count>5</count>
+          <errorcount>2</errorcount>
+          <date>2015-09-20T17:28:03</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="1">
+      <translation id="0">
+        <text>esperanza de vida</text>
+      </translation>
+      <translation id="1">
+        <text>προσδόκιμο ζωής</text>
+        <grade>
+          <currentgrade>3</currentgrade>
+          <count>5</count>
+          <errorcount>2</errorcount>
+          <date>2015-09-20T17:16:59</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="2">
+      <translation id="0">
+        <text>trastorno</text>
+      </translation>
+      <translation id="1">
+        <text>διαταραχή</text>
+        <grade>
+          <currentgrade>1</currentgrade>
+          <count>3</count>
+          <errorcount>2</errorcount>
+          <date>2015-09-20T17:20:10</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="3">
+      <translation id="0">
+        <text>contagio</text>
+      </translation>
+      <translation id="1">
+        <text>μετάδοση (ασθένεια)</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:55:23</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="4">
+      <translation id="0">
+        <text>percance</text>
+      </translation>
+      <translation id="1">
+        <text>ζημιά</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>4</count>
+          <errorcount>2</errorcount>
+          <date>2015-09-20T17:30:31</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="5">
+      <translation id="0">
+        <text>o bien</text>
+      </translation>
+      <translation id="1">
+        <text>ή</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:24:12</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="6">
+      <translation id="0">
+        <text>sin embargo</text>
+      </translation>
+      <translation id="1">
+        <text>παρόλα αυτά</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:23:35</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="7">
+      <translation id="0">
+        <text>imprimir</text>
+      </translation>
+      <translation id="1">
+        <text>τυπώνω</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:22:28</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="8">
+      <translation id="0">
+        <text>por lo tanto</text>
+      </translation>
+      <translation id="1">
+        <text>συνεπώς</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:25:18</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="9">
+      <translation id="0">
+        <text>máxime si</text>
+      </translation>
+      <translation id="1">
+        <text>κυρίως αν</text>
+        <grade>
+          <currentgrade>3</currentgrade>
+          <count>3</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:54:14</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="10">
+      <translation id="0">
+        <text>desacherse (de)</text>
+      </translation>
+      <translation id="1">
+        <text>ξεφορτώνομαι</text>
+        <grade>
+          <currentgrade>3</currentgrade>
+          <count>3</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:21:40</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="11">
+      <translation id="0">
+        <text>en este sentido</text>
+      </translation>
+      <translation id="1">
+        <text>με αυτή την έννοια</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:02:07</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="12">
+      <translation id="0">
+        <text>precaución</text>
+      </translation>
+      <translation id="1">
+        <text>πρόληψη (ιατρική)</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:23:39</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="13">
+      <translation id="0">
+        <text>comprometerse (a)</text>
+      </translation>
+      <translation id="1">
+        <text>δεσμέυομαι να</text>
+        <grade>
+          <currentgrade>1</currentgrade>
+          <count>3</count>
+          <errorcount>2</errorcount>
+          <date>2015-09-20T17:22:06</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="14">
+      <translation id="0">
+        <text>en cuanto a</text>
+      </translation>
+      <translation id="1">
+        <text>όσον αφορά</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:28:32</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="15">
+      <translation id="0">
+        <text>preciso</text>
+      </translation>
+      <translation id="1">
+        <text>απαραίτητος</text>
+        <grade>
+          <currentgrade>1</currentgrade>
+          <count>4</count>
+          <errorcount>1</errorcount>
+          <date>2015-09-20T16:55:05</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="16">
+      <translation id="0">
+        <text>es decir</text>
+      </translation>
+      <translation id="1">
+        <text>πάει να πει</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:30:35</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="17">
+      <translation id="0">
+        <text>padecer</text>
+      </translation>
+      <translation id="1">
+        <text>περνάω (ασθένεια)</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:18:04</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="18">
+      <translation id="0">
+        <text>atenuar</text>
+      </translation>
+      <translation id="1">
+        <text>μειώνω ένταση</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:57:58</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="19">
+      <translation id="0">
+        <text>conformarse</text>
+      </translation>
+      <translation id="1">
+        <text>συμβιβάζομαι</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:20:03</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="20">
+      <translation id="0">
+        <text>tratar (de)</text>
+      </translation>
+      <translation id="1">
+        <text>προσπαθώ να</text>
+        <grade>
+          <currentgrade>3</currentgrade>
+          <count>3</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:59:45</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="21">
+      <translation id="0">
+        <text>insistir (en)</text>
+      </translation>
+      <translation id="1">
+        <text>επιμένω</text>
+        <grade>
+          <currentgrade>3</currentgrade>
+          <count>3</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:19:44</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="22">
+      <translation id="0">
+        <text>dedicar (a)</text>
+      </translation>
+      <translation id="1">
+        <text>αφιερώνω</text>
+        <grade>
+          <currentgrade>3</currentgrade>
+          <count>3</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:22:51</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="23">
+      <translation id="0">
+        <text>estar de más</text>
+      </translation>
+      <translation id="1">
+        <text>περισσεύω</text>
+        <grade>
+          <currentgrade>1</currentgrade>
+          <count>3</count>
+          <errorcount>2</errorcount>
+          <date>2015-09-20T16:53:44</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="24">
+      <translation id="0">
+        <text>a raya</text>
+      </translation>
+      <translation id="1">
+        <text>σε μια σειρά</text>
+        <grade>
+          <currentgrade>1</currentgrade>
+          <count>5</count>
+          <errorcount>3</errorcount>
+          <date>2015-09-20T17:02:09</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="25">
+      <translation id="0">
+        <text>colon</text>
+      </translation>
+      <translation id="1">
+        <text>έντερο</text>
+        <grade>
+          <currentgrade>3</currentgrade>
+          <count>3</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:01:25</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="26">
+      <translation id="0">
+        <text>mama</text>
+      </translation>
+      <translation id="1">
+        <text>μαστός</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:22:23</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="27">
+      <translation id="0">
+        <text>por otra parte</text>
+      </translation>
+      <translation id="1">
+        <text>από την άλλη</text>
+        <grade>
+          <currentgrade>3</currentgrade>
+          <count>3</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:47:22</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="28">
+      <translation id="0">
+        <text>no obstante</text>
+      </translation>
+      <translation id="1">
+        <text>παρόλαυτα</text>
+        <grade>
+          <currentgrade>3</currentgrade>
+          <count>3</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:47:42</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="29">
+      <translation id="0">
+        <text>contraproducente</text>
+      </translation>
+      <translation id="1">
+        <text>αντιπαραγωγικός</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:02:55</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="30">
+      <translation id="0">
+        <text>eficaz</text>
+      </translation>
+      <translation id="1">
+        <text>αποτελεσματικός</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:54:18</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="31">
+      <translation id="0">
+        <text>fortalecer</text>
+      </translation>
+      <translation id="1">
+        <text>ενδυναμώνω</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:20:47</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="32">
+      <translation id="0">
+        <text>rato</text>
+      </translation>
+      <translation id="1">
+        <text>λίγο</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:22:49</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="33">
+      <translation id="0">
+        <text>absentismo laboral</text>
+      </translation>
+      <translation id="1">
+        <text>απουσίες (δουλειά)</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:25:54</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="34">
+      <translation id="0">
+        <text>ayudar (a)</text>
+      </translation>
+      <translation id="1">
+        <text>βοηθώ</text>
+        <grade>
+          <currentgrade>3</currentgrade>
+          <count>3</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:02:47</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="35">
+      <translation id="0">
+        <text>en la actualidad</text>
+      </translation>
+      <translation id="1">
+        <text>τώρα, στο παρόν</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:51:13</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="36">
+      <translation id="0">
+        <text>escudo</text>
+        <image>dkSpanishCards_files/2000px-Escudo_de_Pamplona.svg.png</image>
+      </translation>
+      <translation id="1">
+        <text>ασπίδα</text>
+        <grade>
+          <currentgrade>3</currentgrade>
+          <count>3</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:21:01</date>
+        </grade>
+        <image>dkSpanishCards_files/2000px-Escudo_de_Pamplona.svg.png</image>
+      </translation>
+    </entry>
+    <entry id="37">
+      <translation id="0">
+        <text>escrutar</text>
+      </translation>
+      <translation id="1">
+        <text>μελετώ εξονυχιστικά</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:50:29</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="38">
+      <translation id="0">
+        <text>rincones</text>
+      </translation>
+      <translation id="1">
+        <text>γωνίες</text>
+        <grade>
+          <currentgrade>3</currentgrade>
+          <count>3</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:23:31</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="39">
+      <translation id="0">
+        <text>difundir</text>
+      </translation>
+      <translation id="1">
+        <text>μεταδίδω</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:47:30</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="40">
+      <translation id="0">
+        <text>asociar algo a</text>
+      </translation>
+      <translation id="1">
+        <text>σχετίζω με</text>
+        <grade>
+          <currentgrade>3</currentgrade>
+          <count>3</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:23:29</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="41">
+      <translation id="0">
+        <text>meta</text>
+      </translation>
+      <translation id="1">
+        <text>τέρμα (στόχος)</text>
+        <grade>
+          <currentgrade>3</currentgrade>
+          <count>3</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:47:26</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="42">
+      <translation id="0">
+        <text>exigente</text>
+      </translation>
+      <translation id="1">
+        <text>απαιτητικός</text>
+        <grade>
+          <currentgrade>3</currentgrade>
+          <count>3</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:58:28</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="43">
+      <translation id="0">
+        <text>obligar (a + inf)</text>
+      </translation>
+      <translation id="1">
+        <text>υποχρεώνω</text>
+        <grade>
+          <currentgrade>3</currentgrade>
+          <count>3</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:26:32</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="44">
+      <translation id="0">
+        <text>se pone en riesgo</text>
+      </translation>
+      <translation id="1">
+        <text>μπαίνει σε κίνδυνο</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:22:01</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="45">
+      <translation id="0">
+        <text>por eso</text>
+      </translation>
+      <translation id="1">
+        <text>γιαυτόν τον λόγο</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:01:56</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="46">
+      <translation id="0">
+        <text>no dejar algo al azar</text>
+      </translation>
+      <translation id="1">
+        <text>δεν αφήνεται στην τύχη</text>
+        <grade>
+          <currentgrade>1</currentgrade>
+          <count>3</count>
+          <errorcount>2</errorcount>
+          <date>2015-09-20T16:47:46</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="47">
+      <translation id="0">
+        <text>guión</text>
+      </translation>
+      <translation id="1">
+        <text>σενάριο</text>
+        <grade>
+          <currentgrade>3</currentgrade>
+          <count>3</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:28:40</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="48">
+      <translation id="0">
+        <text>confección</text>
+      </translation>
+      <translation id="1">
+        <text>δημιουργία</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:53:46</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="49">
+      <translation id="0">
+        <text>por último</text>
+      </translation>
+      <translation id="1">
+        <text>τέλος,</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:03:03</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="50">
+      <translation id="0">
+        <text>apropiada</text>
+      </translation>
+      <translation id="1">
+        <text>σχετική</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>4</count>
+          <errorcount>2</errorcount>
+          <date>2015-09-20T17:29:30</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="51">
+      <translation id="0">
+        <text>locución</text>
+      </translation>
+      <translation id="1">
+        <text>έκφραση (γλώσσα)</text>
+        <grade>
+          <currentgrade>3</currentgrade>
+          <count>3</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:27:34</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="52">
+      <translation id="0">
+        <text>uva</text>
+        <image>dkSpanishCards_files/3967748405_61769b4212_o_d.jpg</image>
+      </translation>
+      <translation id="1">
+        <text>σταφύλι</text>
+        <grade>
+          <currentgrade>3</currentgrade>
+          <count>3</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:47:55</date>
+        </grade>
+        <image>dkSpanishCards_files/3967748405_61769b4212_o_d.jpg</image>
+      </translation>
+    </entry>
+    <entry id="53">
+      <translation id="0">
+        <text>similar (a)</text>
+      </translation>
+      <translation id="1">
+        <text>παρόμοιος</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:02:02</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="54">
+      <translation id="0">
+        <text>actual</text>
+      </translation>
+      <translation id="1">
+        <text>σύγχρονος</text>
+        <grade>
+          <currentgrade>3</currentgrade>
+          <count>3</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:23:02</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="55">
+      <translation id="0">
+        <text>relativo (a)</text>
+      </translation>
+      <translation id="1">
+        <text>σχετικός</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:18:27</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="56">
+      <translation id="0">
+        <text>viñedo/viña</text>
+      </translation>
+      <translation id="1">
+        <text>αμπέλι</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:30:11</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="57">
+      <translation id="0">
+        <text>prodecer (de)</text>
+      </translation>
+      <translation id="1">
+        <text>προέρχομαι</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:59:02</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="58">
+      <translation id="0">
+        <text>a pesar de</text>
+      </translation>
+      <translation id="1">
+        <text>παρόλο, παρότι</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:22:47</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="59">
+      <translation id="0">
+        <text>documentado en</text>
+      </translation>
+      <translation id="1">
+        <text>τεκμηριωμένο</text>
+        <grade>
+          <currentgrade>3</currentgrade>
+          <count>3</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:54:38</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="60">
+      <translation id="0">
+        <text>disponer de algo</text>
+      </translation>
+      <translation id="1">
+        <text>να έχεις διαθέσιμο</text>
+        <grade>
+          <currentgrade>1</currentgrade>
+          <count>3</count>
+          <errorcount>2</errorcount>
+          <date>2015-09-20T17:30:01</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="61">
+      <translation id="0">
+        <text>como ofrenda</text>
+      </translation>
+      <translation id="1">
+        <text>ως θυσία,προσφορά</text>
+        <grade>
+          <currentgrade>3</currentgrade>
+          <count>3</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:47:11</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="62">
+      <translation id="0">
+        <text>inundación</text>
+      </translation>
+      <translation id="1">
+        <text>πλημμύρα</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:19:36</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="63">
+      <translation id="0">
+        <text>adecuada para</text>
+      </translation>
+      <translation id="1">
+        <text>κατάλληλη</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:55:34</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="64">
+      <translation id="0">
+        <text>pedregoso</text>
+      </translation>
+      <translation id="1">
+        <text>πετρώδης</text>
+        <grade>
+          <currentgrade>3</currentgrade>
+          <count>3</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:27:06</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="65">
+      <translation id="0">
+        <text>suponer</text>
+      </translation>
+      <translation id="1">
+        <text>σημαίνω</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:17:44</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="66">
+      <translation id="0">
+        <text>rodar</text>
+      </translation>
+      <translation id="1">
+        <text>γυρίζω</text>
+        <grade>
+          <currentgrade>3</currentgrade>
+          <count>3</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:27:09</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="67">
+      <translation id="0">
+        <text>llegar a la cima</text>
+      </translation>
+      <translation id="1">
+        <text>φθάνω στην κορυφή</text>
+        <grade>
+          <currentgrade>3</currentgrade>
+          <count>3</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:26:17</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="68">
+      <translation id="0">
+        <text>esta considerada como</text>
+      </translation>
+      <translation id="1">
+        <text>θεωρείται</text>
+        <grade>
+          <currentgrade>3</currentgrade>
+          <count>3</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:54:36</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="69">
+      <translation id="0">
+        <text>aportar</text>
+      </translation>
+      <translation id="1">
+        <text>παρέχω</text>
+        <grade>
+          <currentgrade>3</currentgrade>
+          <count>3</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:24:34</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="70">
+      <translation id="0">
+        <text>hacer ejercicio</text>
+      </translation>
+      <translation id="1">
+        <text>γυμνάζομαι</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:28:34</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="71">
+      <translation id="0">
+        <text>estado de ánimo</text>
+      </translation>
+      <translation id="1">
+        <text>διάθεση</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:23:05</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="72">
+      <translation id="0">
+        <text>a medida que</text>
+      </translation>
+      <translation id="1">
+        <text>όσο, στον βαθμό</text>
+        <grade>
+          <currentgrade>1</currentgrade>
+          <count>3</count>
+          <errorcount>2</errorcount>
+          <date>2015-09-20T17:30:08</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="73">
+      <translation id="0">
+        <text>explayarse</text>
+      </translation>
+      <translation id="1">
+        <text>επεξηγώ</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:51:52</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="74">
+      <translation id="0">
+        <text>acariciar</text>
+      </translation>
+      <translation id="1">
+        <text>caress (χαιδεύω)</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:25:43</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="75">
+      <translation id="0">
+        <text>borrico/burro</text>
+      </translation>
+      <translation id="1">
+        <text>γάιδαρος</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:53:56</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="76">
+      <translation id="0">
+        <text>pestilente</text>
+      </translation>
+      <translation id="1">
+        <text>απαίσιο</text>
+        <grade>
+          <currentgrade>3</currentgrade>
+          <count>3</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:17:47</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="77">
+      <translation id="0">
+        <text>vicario</text>
+      </translation>
+      <translation id="1">
+        <text>εφημέριος</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:02:44</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="78">
+      <translation id="0">
+        <text>es lo de menos</text>
+      </translation>
+      <translation id="1">
+        <text>όχι κ τπτ σημαντικό</text>
+        <grade>
+          <currentgrade>3</currentgrade>
+          <count>3</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:25:39</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="79">
+      <translation id="0">
+        <text>rebuzno</text>
+      </translation>
+      <translation id="1">
+        <text>γκάρισμα</text>
+        <grade>
+          <currentgrade>3</currentgrade>
+          <count>3</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:30:37</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="80">
+      <translation id="0">
+        <text>fallar</text>
+      </translation>
+      <translation id="1">
+        <text>απογοητεύω</text>
+        <grade>
+          <currentgrade>3</currentgrade>
+          <count>3</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:22:31</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="81">
+      <translation id="0">
+        <text>soltura</text>
+      </translation>
+      <translation id="1">
+        <text>άνεση</text>
+        <grade>
+          <currentgrade>3</currentgrade>
+          <count>3</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:23:16</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="82">
+      <translation id="0">
+        <text>asno</text>
+        <image>dkSpanishCards_files/PI13231-hr.jpg</image>
+      </translation>
+      <translation id="1">
+        <text>όνος</text>
+        <grade>
+          <currentgrade>3</currentgrade>
+          <count>3</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:48:12</date>
+        </grade>
+        <image>dkSpanishCards_files/PI13231-hr.jpg</image>
+      </translation>
+    </entry>
+    <entry id="83">
+      <translation id="0">
+        <text>llevar razón</text>
+      </translation>
+      <translation id="1">
+        <text>έχω δίκιο</text>
+        <grade>
+          <currentgrade>3</currentgrade>
+          <count>3</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:20:27</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="84">
+      <translation id="0">
+        <text>a juzgar por</text>
+      </translation>
+      <translation id="1">
+        <text>κρίνοντας από</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:23:37</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="85">
+      <translation id="0">
+        <text>pese a</text>
+      </translation>
+      <translation id="1">
+        <text>παρόλο</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>3</count>
+          <errorcount>2</errorcount>
+          <date>2015-09-20T17:22:30</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="86">
+      <translation id="0">
+        <text>ceremonioso</text>
+      </translation>
+      <translation id="1">
+        <text>σχολαστικός</text>
+        <grade>
+          <currentgrade>3</currentgrade>
+          <count>3</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:23:45</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="87">
+      <translation id="0">
+        <text>estrafalario personaje</text>
+      </translation>
+      <translation id="1">
+        <text>εκκεντρικός</text>
+        <grade>
+          <currentgrade>3</currentgrade>
+          <count>3</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:55:16</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="88">
+      <translation id="0">
+        <text>sierra</text>
+        <image>dkSpanishCards_files/Sierra_Alpujata.jpg</image>
+      </translation>
+      <translation id="1">
+        <text>οροσειρά</text>
+        <grade>
+          <currentgrade>3</currentgrade>
+          <count>3</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:58:35</date>
+        </grade>
+        <image>dkSpanishCards_files/Sierra_Alpujata.jpg</image>
+      </translation>
+    </entry>
+    <entry id="89">
+      <translation id="0">
+        <text>nos recibe alguien</text>
+      </translation>
+      <translation id="1">
+        <text>μας υποδέχεται (οικοδεσπ.)</text>
+        <grade>
+          <currentgrade>3</currentgrade>
+          <count>3</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:18:58</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="90">
+      <translation id="0">
+        <text>en compañía de</text>
+      </translation>
+      <translation id="1">
+        <text>με συντροφιά</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:47:50</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="91">
+      <translation id="0">
+        <text>cuadra</text>
+      </translation>
+      <translation id="1">
+        <text>στάβλος</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>4</count>
+          <errorcount>2</errorcount>
+          <date>2015-09-20T17:26:29</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="92">
+      <translation id="0">
+        <text>soy capaz de + inf</text>
+      </translation>
+      <translation id="1">
+        <text>είμαι ικανός</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:54:27</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="93">
+      <translation id="0">
+        <text>lencería</text>
+      </translation>
+      <translation id="1">
+        <text>εσώρουχα</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>4</count>
+          <errorcount>2</errorcount>
+          <date>2015-09-20T16:57:47</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="94">
+      <translation id="0">
+        <text>finca</text>
+      </translation>
+      <translation id="1">
+        <text>κτήμα</text>
+        <grade>
+          <currentgrade>3</currentgrade>
+          <count>3</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:23:43</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="95">
+      <translation id="0">
+        <text>en cambio</text>
+      </translation>
+      <translation id="1">
+        <text>παρόλαυτά</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>3</count>
+          <errorcount>2</errorcount>
+          <date>2015-09-20T17:29:20</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="96">
+      <translation id="0">
+        <text>soltar</text>
+      </translation>
+      <translation id="1">
+        <text>απελευθερώνω</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:58:01</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="97">
+      <translation id="0">
+        <text>carajo</text>
+      </translation>
+      <translation id="1">
+        <text>διάολε</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:58:48</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="98">
+      <translation id="0">
+        <text>evocación</text>
+      </translation>
+      <translation id="1">
+        <text>αναπαραγωγή</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>3</count>
+          <errorcount>2</errorcount>
+          <date>2015-09-20T16:59:43</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="99">
+      <translation id="0">
+        <text>por esos años</text>
+      </translation>
+      <translation id="1">
+        <text>εκείνα τα χρόνια</text>
+        <grade>
+          <currentgrade>3</currentgrade>
+          <count>3</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:23:07</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="100">
+      <translation id="0">
+        <text>desde el primer momento</text>
+      </translation>
+      <translation id="1">
+        <text>απ την πρώτη στιγμή</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:17:17</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="101">
+      <translation id="0">
+        <text>granos</text>
+      </translation>
+      <translation id="1">
+        <text>κόκκοι</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:27:15</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="102">
+      <translation id="0">
+        <text>tostar</text>
+      </translation>
+      <translation id="1">
+        <text>καβουρδίζω</text>
+        <grade>
+          <currentgrade>3</currentgrade>
+          <count>3</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:20:35</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="103">
+      <translation id="0">
+        <text>intestinos</text>
+      </translation>
+      <translation id="1">
+        <text>σπλάχνα</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:25:46</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="104">
+      <translation id="0">
+        <text>roedor</text>
+      </translation>
+      <translation id="1">
+        <text>τρωκτικό</text>
+        <grade>
+          <currentgrade>1</currentgrade>
+          <count>3</count>
+          <errorcount>2</errorcount>
+          <date>2015-09-20T17:18:06</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="105">
+      <translation id="0">
+        <text>aparato digestivo</text>
+      </translation>
+      <translation id="1">
+        <text>πεπτικό σύστημα</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:18:19</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="106">
+      <translation id="0">
+        <text>defecar</text>
+      </translation>
+      <translation id="1">
+        <text>χέζω</text>
+        <grade>
+          <currentgrade>3</currentgrade>
+          <count>3</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:55:18</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="107">
+      <translation id="0">
+        <text>tracto intestinal</text>
+      </translation>
+      <translation id="1">
+        <text>εντερικός σωλήνας</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:57:52</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="108">
+      <translation id="0">
+        <text>senderismo</text>
+      </translation>
+      <translation id="1">
+        <text>πεζοπορία</text>
+        <grade>
+          <currentgrade>1</currentgrade>
+          <count>3</count>
+          <errorcount>2</errorcount>
+          <date>2015-09-20T16:55:09</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="109">
+      <translation id="0">
+        <text>pegar</text>
+      </translation>
+      <translation id="1">
+        <text>κολλάω</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:57:55</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="110">
+      <translation id="0">
+        <text>estar pendiente de</text>
+      </translation>
+      <translation id="1">
+        <text>περιμένω κάτι</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:17:52</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="111">
+      <translation id="0">
+        <text>así que nada</text>
+      </translation>
+      <translation id="1">
+        <text>Αυτό ήταν!</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:28:51</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="112">
+      <translation id="0">
+        <text>corriente</text>
+      </translation>
+      <translation id="1">
+        <text>ρεύμα</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:30:13</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="113">
+      <translation id="0">
+        <text>enchufar</text>
+      </translation>
+      <translation id="1">
+        <text>βυσματώνω</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:20:40</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="114">
+      <translation id="0">
+        <text>estirar</text>
+      </translation>
+      <translation id="1">
+        <text>τεντώνω</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:26:09</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="115">
+      <translation id="0">
+        <text>quitar de encima</text>
+      </translation>
+      <translation id="1">
+        <text>φεύγει από πάνω μου</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:01:23</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="116">
+      <translation id="0">
+        <text>camino de cabras</text>
+      </translation>
+      <translation id="1">
+        <text>κατσικόδρομος</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:25:30</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="117">
+      <translation id="0">
+        <text>tapar</text>
+      </translation>
+      <translation id="1">
+        <text>καλύπτω, κρύβω</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:53:40</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="118">
+      <translation id="0">
+        <text>torcerse</text>
+      </translation>
+      <translation id="1">
+        <text>γυρνάω (π.χ. αστράγαλο)</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:50:02</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="119">
+      <translation id="0">
+        <text>tobillo</text>
+      </translation>
+      <translation id="1">
+        <text>αστράγαλος</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:54:22</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="120">
+      <translation id="0">
+        <text>continuar con algo</text>
+      </translation>
+      <translation id="1">
+        <text>συνεχίζω</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:53:34</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="121">
+      <translation id="0">
+        <text>quedarse tirado</text>
+      </translation>
+      <translation id="1">
+        <text>εγκαταλείπομαι</text>
+        <grade>
+          <currentgrade>1</currentgrade>
+          <count>3</count>
+          <errorcount>2</errorcount>
+          <date>2015-09-20T17:23:59</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="122">
+      <translation id="0">
+        <text>aguantar</text>
+      </translation>
+      <translation id="1">
+        <text>αντέχω</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:03:24</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="123">
+      <translation id="0">
+        <text>en función de</text>
+      </translation>
+      <translation id="1">
+        <text>ανάλογα με, με βάση</text>
+        <grade>
+          <currentgrade>1</currentgrade>
+          <count>3</count>
+          <errorcount>2</errorcount>
+          <date>2015-09-20T17:19:52</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="124">
+      <translation id="0">
+        <text>consuelo</text>
+      </translation>
+      <translation id="1">
+        <text>ανακούφιση</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:29:16</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="125">
+      <translation id="0">
+        <text>olfato</text>
+      </translation>
+      <translation id="1">
+        <text>όσφρηση</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:47:37</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="126">
+      <translation id="0">
+        <text>arrasador</text>
+      </translation>
+      <translation id="1">
+        <text>τρομακτικός</text>
+        <grade>
+          <currentgrade>1</currentgrade>
+          <count>3</count>
+          <errorcount>2</errorcount>
+          <date>2015-09-20T16:56:58</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="127">
+      <translation id="0">
+        <text>paladar</text>
+      </translation>
+      <translation id="1">
+        <text>ουρανίσκος</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:23:00</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="128">
+      <translation id="0">
+        <text>afinar</text>
+      </translation>
+      <translation id="1">
+        <text>refine,polish</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:58:46</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="129">
+      <translation id="0">
+        <text>saber a</text>
+      </translation>
+      <translation id="1">
+        <text>δοκιμάζω (γεύση)</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:22:18</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="130">
+      <translation id="0">
+        <text>infusion</text>
+      </translation>
+      <translation id="1">
+        <text>αφέψημα</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:28:20</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="131">
+      <translation id="0">
+        <text>misa</text>
+      </translation>
+      <translation id="1">
+        <text>ευχαριστία(καθολ.)</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:50:18</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="132">
+      <translation id="0">
+        <text>placer</text>
+      </translation>
+      <translation id="1">
+        <text>ευχαρίστηση</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:55:13</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="133">
+      <translation id="0">
+        <text>reprochar</text>
+      </translation>
+      <translation id="1">
+        <text>αποδοκιμάζω</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:19:25</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="134">
+      <translation id="0">
+        <text>fomentar</text>
+      </translation>
+      <translation id="1">
+        <text>ενθαρρύνω</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:50:05</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="135">
+      <translation id="0">
+        <text>recuerdo a alg.</text>
+      </translation>
+      <translation id="1">
+        <text>θυμάμαι</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:03:15</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="136">
+      <translation id="0">
+        <text>inaugurar</text>
+      </translation>
+      <translation id="1">
+        <text>αρχίζω</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:24:06</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="137">
+      <translation id="0">
+        <text>condiscípulo</text>
+      </translation>
+      <translation id="1">
+        <text>συμμαθητής</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:28:22</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="138">
+      <translation id="0">
+        <text>ataúd</text>
+      </translation>
+      <translation id="1">
+        <text>φέρετρο</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:01:42</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="139">
+      <translation id="0">
+        <text>recreo</text>
+      </translation>
+      <translation id="1">
+        <text>διάλειμμα (σχολ.)</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:27:29</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="140">
+      <translation id="0">
+        <text>resaca</text>
+      </translation>
+      <translation id="1">
+        <text>hangover</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:22:25</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="141">
+      <translation id="0">
+        <text>me costó mucho + inf</text>
+      </translation>
+      <translation id="1">
+        <text>μου κόστισε να</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:50:21</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="142">
+      <translation id="0">
+        <text>Me era imposible</text>
+      </translation>
+      <translation id="1">
+        <text>Μου ήταν αδύνατο</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:59:53</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="143">
+      <translation id="0">
+        <text>por fin</text>
+      </translation>
+      <translation id="1">
+        <text>εν τέλει</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:17:32</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="144">
+      <translation id="0">
+        <text>polvoriento</text>
+      </translation>
+      <translation id="1">
+        <text>σκονισμένος</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:29:03</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="145">
+      <translation id="0">
+        <text>descosido</text>
+      </translation>
+      <translation id="1">
+        <text>ασύνδετος</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:00:28</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="146">
+      <translation id="0">
+        <text>además de</text>
+      </translation>
+      <translation id="1">
+        <text>επιπλέον</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:21:58</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="147">
+      <translation id="0">
+        <text>en torno a</text>
+      </translation>
+      <translation id="1">
+        <text>γύρω από</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:21:42</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="148">
+      <translation id="0">
+        <text>asegurar a</text>
+      </translation>
+      <translation id="1">
+        <text>διασφαλίζω</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:26:55</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="149">
+      <translation id="0">
+        <text>respecto a</text>
+      </translation>
+      <translation id="1">
+        <text>σχετικά με</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:21:06</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="150">
+      <translation id="0">
+        <text>coincidir en algo</text>
+      </translation>
+      <translation id="1">
+        <text>συμφωνώ σε κάτι</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:24:57</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="151">
+      <translation id="0">
+        <text>percibir</text>
+      </translation>
+      <translation id="1">
+        <text>αντιλαμβάνομαι</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:21:04</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="152">
+      <translation id="0">
+        <text>a partir de</text>
+      </translation>
+      <translation id="1">
+        <text>εκτός από</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:58:58</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="153">
+      <translation id="0">
+        <text>residuo</text>
+      </translation>
+      <translation id="1">
+        <text>απόβλητο</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:20:55</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="154">
+      <translation id="0">
+        <text>comprometido</text>
+      </translation>
+      <translation id="1">
+        <text>δεσμευμένος</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:24:02</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="155">
+      <translation id="0">
+        <text>ahorro</text>
+      </translation>
+      <translation id="1">
+        <text>εξοικονόμηση</text>
+        <grade>
+          <currentgrade>1</currentgrade>
+          <count>3</count>
+          <errorcount>2</errorcount>
+          <date>2015-09-20T17:26:14</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="156">
+      <translation id="0">
+        <text>envase</text>
+      </translation>
+      <translation id="1">
+        <text>συσκευασία (π.χ. κονσερβοκούτι)</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:47:19</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="157">
+      <translation id="0">
+        <text>otorgar</text>
+      </translation>
+      <translation id="1">
+        <text>παραδέχομαι</text>
+        <grade>
+          <currentgrade>1</currentgrade>
+          <count>5</count>
+          <errorcount>4</errorcount>
+          <date>2015-09-20T17:03:33</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="158">
+      <translation id="0">
+        <text>concretamente</text>
+      </translation>
+      <translation id="1">
+        <text>ειδικά</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:26:24</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="159">
+      <translation id="0">
+        <text>por primera vez</text>
+      </translation>
+      <translation id="1">
+        <text>πρώτη φορά</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:59:36</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="160">
+      <translation id="0">
+        <text>manualidad</text>
+      </translation>
+      <translation id="1">
+        <text>χειροτεχνία</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:02:49</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="161">
+      <translation id="0">
+        <text>una vez que</text>
+      </translation>
+      <translation id="1">
+        <text>μόλις, όταν</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:59:22</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="162">
+      <translation id="0">
+        <text>contar de algo</text>
+      </translation>
+      <translation id="1">
+        <text>μετρώ</text>
+        <grade>
+          <currentgrade>1</currentgrade>
+          <count>3</count>
+          <errorcount>2</errorcount>
+          <date>2015-09-20T17:25:57</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="163">
+      <translation id="0">
+        <text>tela</text>
+      </translation>
+      <translation id="1">
+        <text>ύφασμα</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:57:49</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="164">
+      <translation id="0">
+        <text>frotar</text>
+      </translation>
+      <translation id="1">
+        <text>τρίβω</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:45:57</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="165">
+      <translation id="0">
+        <text>opositor</text>
+      </translation>
+      <translation id="1">
+        <text>υποψήφιος</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:53:29</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="166">
+      <translation id="0">
+        <text>por descontado</text>
+      </translation>
+      <translation id="1">
+        <text>needless to say</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:26:50</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="167">
+      <translation id="0">
+        <text>proporcionar</text>
+      </translation>
+      <translation id="1">
+        <text>παρέχω</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:22:20</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="168">
+      <translation id="0">
+        <text>convocatoria</text>
+      </translation>
+      <translation id="1">
+        <text>summon,call</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:24:14</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="169">
+      <translation id="0">
+        <text>asesorar</text>
+      </translation>
+      <translation id="1">
+        <text>συμβουλεύω</text>
+        <grade>
+          <currentgrade>1</currentgrade>
+          <count>3</count>
+          <errorcount>2</errorcount>
+          <date>2015-09-20T17:22:15</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="170">
+      <translation id="0">
+        <text>intereses personales</text>
+      </translation>
+      <translation id="1">
+        <text>προσωπικά ενδιαφέροντα</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:27:25</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="171">
+      <translation id="0">
+        <text>a la misma hora</text>
+      </translation>
+      <translation id="1">
+        <text>την ίδια ώρα</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:25:41</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="172">
+      <translation id="0">
+        <text>borregos</text>
+      </translation>
+      <translation id="1">
+        <text>πρόβατα</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:21:46</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="173">
+      <translation id="0">
+        <text>señal</text>
+      </translation>
+      <translation id="1">
+        <text>προκαταβολή</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:55:20</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="174">
+      <translation id="0">
+        <text>como mucho</text>
+      </translation>
+      <translation id="1">
+        <text>το πολύ</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:52:23</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="175">
+      <translation id="0">
+        <text>1 hora y pico</text>
+      </translation>
+      <translation id="1">
+        <text>1 ώρα κ κάτι</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:26:30</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="176">
+      <translation id="0">
+        <text>dar plantón</text>
+      </translation>
+      <translation id="1">
+        <text>στήνω</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:28:09</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="177">
+      <translation id="0">
+        <text>hasta los topes</text>
+      </translation>
+      <translation id="1">
+        <text>γεμάτο</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:19:59</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="178">
+      <translation id="0">
+        <text>como un tren</text>
+      </translation>
+      <translation id="1">
+        <text>γοητευτικός</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:15:35</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="179">
+      <translation id="0">
+        <text>embotellamiento</text>
+      </translation>
+      <translation id="1">
+        <text>μποτιλιάρισμα</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:58:32</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="180">
+      <translation id="0">
+        <text>dar la lata</text>
+      </translation>
+      <translation id="1">
+        <text>ενοχλώ</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:17:28</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="181">
+      <translation id="0">
+        <text>de oídas</text>
+      </translation>
+      <translation id="1">
+        <text>ακουστά</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:56:08</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="182">
+      <translation id="0">
+        <text>de cine</text>
+      </translation>
+      <translation id="1">
+        <text>τέλεια</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:01:38</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="183">
+      <translation id="0">
+        <text>estoy como un flan</text>
+      </translation>
+      <translation id="1">
+        <text>νευρικός</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:56:03</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="184">
+      <translation id="0">
+        <text>preguntar por algo</text>
+      </translation>
+      <translation id="1">
+        <text>ρωτάω</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:28:44</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="185">
+      <translation id="0">
+        <text>Que tal lo pasasteis</text>
+      </translation>
+      <translation id="1">
+        <text>Πώς τα περάσατε;</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:27:00</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="186">
+      <translation id="0">
+        <text>Me he puesto morado</text>
+      </translation>
+      <translation id="1">
+        <text>Έφαγα πολύ</text>
+        <grade>
+          <currentgrade>1</currentgrade>
+          <count>3</count>
+          <errorcount>2</errorcount>
+          <date>2015-09-20T17:25:51</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="187">
+      <translation id="0">
+        <text>por persona</text>
+      </translation>
+      <translation id="1">
+        <text>το άτομο</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:28:24</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="188">
+      <translation id="0">
+        <text>Me repite</text>
+      </translation>
+      <translation id="1">
+        <text>Μου ανεβαίνει (φαγητό)</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:47:14</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="189">
+      <translation id="0">
+        <text>como sardinas en lata</text>
+      </translation>
+      <translation id="1">
+        <text>σαν σαρδέλες...</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:17:59</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="190">
+      <translation id="0">
+        <text>Me importa un comino</text>
+      </translation>
+      <translation id="1">
+        <text>Δε δίνω δεκάρα</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:58:03</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="191">
+      <translation id="0">
+        <text>sea cual sea</text>
+      </translation>
+      <translation id="1">
+        <text>όποιο/ότι κι αν είναι, ανεξάρτητα</text>
+        <grade>
+          <currentgrade>1</currentgrade>
+          <count>3</count>
+          <errorcount>2</errorcount>
+          <date>2015-09-20T17:29:41</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="192">
+      <translation id="0">
+        <text>delincuencia</text>
+      </translation>
+      <translation id="1">
+        <text>εγκληματικότητα</text>
+        <grade>
+          <currentgrade>1</currentgrade>
+          <count>3</count>
+          <errorcount>2</errorcount>
+          <date>2015-09-20T16:58:24</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="193">
+      <translation id="0">
+        <text>máquinas tragaperras</text>
+      </translation>
+      <translation id="1">
+        <text>φρουτάκια</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:22:13</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="194">
+      <translation id="0">
+        <text>repartidor</text>
+      </translation>
+      <translation id="1">
+        <text>έμπορος</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:30:25</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="195">
+      <translation id="0">
+        <text>delito</text>
+      </translation>
+      <translation id="1">
+        <text>αδίκημα</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:02:38</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="196">
+      <translation id="0">
+        <text>está condicionada por</text>
+      </translation>
+      <translation id="1">
+        <text>εξαρτάται</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:21:11</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="197">
+      <translation id="0">
+        <text>degradado</text>
+      </translation>
+      <translation id="1">
+        <text>υποβαθμισμένο</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:57:01</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="198">
+      <translation id="0">
+        <text>compatibilizar</text>
+      </translation>
+      <translation id="1">
+        <text>συνδυάζω</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:27:39</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="199">
+      <translation id="0">
+        <text>los demás</text>
+      </translation>
+      <translation id="1">
+        <text>οι άλλοι</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:22:09</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="200">
+      <translation id="0">
+        <text>recinto</text>
+      </translation>
+      <translation id="1">
+        <text>περίφραξη</text>
+        <grade>
+          <currentgrade>1</currentgrade>
+          <count>3</count>
+          <errorcount>2</errorcount>
+          <date>2015-09-20T17:02:23</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="201">
+      <translation id="0">
+        <text>recurrir a</text>
+      </translation>
+      <translation id="1">
+        <text>καταφεύγω</text>
+        <grade>
+          <currentgrade>1</currentgrade>
+          <count>3</count>
+          <errorcount>2</errorcount>
+          <date>2015-09-20T16:59:25</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="202">
+      <translation id="0">
+        <text>acceder a</text>
+      </translation>
+      <translation id="1">
+        <text>έχω πρόσβαση</text>
+        <grade>
+          <currentgrade>1</currentgrade>
+          <count>3</count>
+          <errorcount>2</errorcount>
+          <date>2015-09-20T17:17:56</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="203">
+      <translation id="0">
+        <text>ocio</text>
+      </translation>
+      <translation id="1">
+        <text>ελεύθερος χρόνος</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:56:00</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="204">
+      <translation id="0">
+        <text>acudir a</text>
+      </translation>
+      <translation id="1">
+        <text>καταφεύγω</text>
+        <grade>
+          <currentgrade>1</currentgrade>
+          <count>3</count>
+          <errorcount>2</errorcount>
+          <date>2015-09-20T17:30:18</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="205">
+      <translation id="0">
+        <text>multitudinaria</text>
+      </translation>
+      <translation id="1">
+        <text>μαζική</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:22:35</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="206">
+      <translation id="0">
+        <text>pauta</text>
+      </translation>
+      <translation id="1">
+        <text>κανόνας</text>
+        <grade>
+          <currentgrade>1</currentgrade>
+          <count>4</count>
+          <errorcount>3</errorcount>
+          <date>2015-09-20T17:21:48</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="207">
+      <translation id="0">
+        <text>advertir</text>
+      </translation>
+      <translation id="1">
+        <text>προειδοποιώ</text>
+        <grade>
+          <currentgrade>1</currentgrade>
+          <count>3</count>
+          <errorcount>2</errorcount>
+          <date>2015-09-20T16:52:44</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="208">
+      <translation id="0">
+        <text>ventajoso</text>
+      </translation>
+      <translation id="1">
+        <text>επωφελής</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:46:06</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="209">
+      <translation id="0">
+        <text>caridad</text>
+      </translation>
+      <translation id="1">
+        <text>φιλανθρωπία</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:47:33</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="210">
+      <translation id="0">
+        <text>petardo</text>
+      </translation>
+      <translation id="1">
+        <text>πυροτέχνημα</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:46:43</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="211">
+      <translation id="0">
+        <text>prevenir</text>
+      </translation>
+      <translation id="1">
+        <text>προειδοποιώ</text>
+        <grade>
+          <currentgrade>1</currentgrade>
+          <count>3</count>
+          <errorcount>2</errorcount>
+          <date>2015-09-20T17:29:52</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="212">
+      <translation id="0">
+        <text>carterista</text>
+      </translation>
+      <translation id="1">
+        <text>πορτοφολάς</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:47:04</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="213">
+      <translation id="0">
+        <text>prenda</text>
+      </translation>
+      <translation id="1">
+        <text>ρούχο</text>
+        <grade>
+          <currentgrade>1</currentgrade>
+          <count>3</count>
+          <errorcount>2</errorcount>
+          <date>2015-09-20T17:25:04</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="214">
+      <translation id="0">
+        <text>padecer</text>
+      </translation>
+      <translation id="1">
+        <text>υποφέρω (ασθένεια)</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:54:11</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="215">
+      <translation id="0">
+        <text>trigo</text>
+      </translation>
+      <translation id="1">
+        <text>σιτάρι</text>
+        <grade>
+          <currentgrade>1</currentgrade>
+          <count>3</count>
+          <errorcount>2</errorcount>
+          <date>2015-09-20T17:19:05</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="216">
+      <translation id="0">
+        <text>Le pica la nariz</text>
+      </translation>
+      <translation id="1">
+        <text>Σε τρώει η μύτη</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:22:56</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="217">
+      <translation id="0">
+        <text>pañuelos</text>
+      </translation>
+      <translation id="1">
+        <text>μαντήλια</text>
+        <grade>
+          <currentgrade>1</currentgrade>
+          <count>3</count>
+          <errorcount>2</errorcount>
+          <date>2015-09-20T16:59:05</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="218">
+      <translation id="0">
+        <text>galopante</text>
+      </translation>
+      <translation id="1">
+        <text>αχαλίνωτος</text>
+        <grade>
+          <currentgrade>1</currentgrade>
+          <count>4</count>
+          <errorcount>3</errorcount>
+          <date>2015-09-20T16:52:58</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="219">
+      <translation id="0">
+        <text>gotea</text>
+      </translation>
+      <translation id="1">
+        <text>στάζει</text>
+        <grade>
+          <currentgrade>1</currentgrade>
+          <count>3</count>
+          <errorcount>2</errorcount>
+          <date>2015-09-20T17:29:54</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="220">
+      <translation id="0">
+        <text>escocer</text>
+      </translation>
+      <translation id="1">
+        <text>τσούζω</text>
+        <grade>
+          <currentgrade>1</currentgrade>
+          <count>4</count>
+          <errorcount>3</errorcount>
+          <date>2015-09-20T17:19:54</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="221">
+      <translation id="0">
+        <text>propenso</text>
+      </translation>
+      <translation id="1">
+        <text>prone (επιρρεπής)</text>
+        <grade>
+          <currentgrade>1</currentgrade>
+          <count>3</count>
+          <errorcount>2</errorcount>
+          <date>2015-09-20T17:24:10</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="222">
+      <translation id="0">
+        <text>colaborar</text>
+      </translation>
+      <translation id="1">
+        <text>συνεισφέρω, συνεργάζομαι</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:22:39</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="223">
+      <translation id="0">
+        <text>prejuicios</text>
+      </translation>
+      <translation id="1">
+        <text>προκαταλήψεις</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:25:48</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="224">
+      <translation id="0">
+        <text>mellizos</text>
+      </translation>
+      <translation id="1">
+        <text>δίδυμα</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:59:32</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="225">
+      <translation id="0">
+        <text>pañal</text>
+      </translation>
+      <translation id="1">
+        <text>πάνα</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:25:27</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="226">
+      <translation id="0">
+        <text>choque</text>
+      </translation>
+      <translation id="1">
+        <text>σοκ</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:19:31</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="227">
+      <translation id="0">
+        <text>cobrar</text>
+      </translation>
+      <translation id="1">
+        <text>πληρώνομαι</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:26:26</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="228">
+      <translation id="0">
+        <text>igual de contento</text>
+      </translation>
+      <translation id="1">
+        <text>το ίδιο χαρούμενος</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:59:48</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="229">
+      <translation id="0">
+        <text>restar</text>
+      </translation>
+      <translation id="1">
+        <text>αφαιρώ</text>
+        <grade>
+          <currentgrade>1</currentgrade>
+          <count>3</count>
+          <errorcount>2</errorcount>
+          <date>2015-09-20T16:52:48</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="230">
+      <translation id="0">
+        <text>repartir</text>
+      </translation>
+      <translation id="1">
+        <text>μοιράζω</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:53:37</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="231">
+      <translation id="0">
+        <text>competir</text>
+      </translation>
+      <translation id="1">
+        <text>ανταγωνίζομαι</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:48:07</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="232">
+      <translation id="0">
+        <text>faena</text>
+      </translation>
+      <translation id="1">
+        <text>δουλειά</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:58:14</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="233">
+      <translation id="0">
+        <text>le quitó el derecho al</text>
+      </translation>
+      <translation id="1">
+        <text>του αφαίρεσε το δικαίωμα</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:19:29</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="234">
+      <translation id="0">
+        <text>tramitar</text>
+      </translation>
+      <translation id="1">
+        <text>επεξεργάζομαι (έγγραφα)</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:48:16</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="235">
+      <translation id="0">
+        <text>la olla a presión</text>
+      </translation>
+      <translation id="1">
+        <text>χύτρα ταχύτητας</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:03:00</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="236">
+      <translation id="0">
+        <text>me quedó dormido</text>
+      </translation>
+      <translation id="1">
+        <text>αποκοιμήθηκα</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:27:22</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="237">
+      <translation id="0">
+        <text>vendaje</text>
+      </translation>
+      <translation id="1">
+        <text>επίδεσμος</text>
+        <grade>
+          <currentgrade>1</currentgrade>
+          <count>3</count>
+          <errorcount>2</errorcount>
+          <date>2015-09-20T17:01:15</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="238">
+      <translation id="0">
+        <text>escayolar</text>
+      </translation>
+      <translation id="1">
+        <text>βάζω στον γύψο</text>
+        <grade>
+          <currentgrade>1</currentgrade>
+          <count>4</count>
+          <errorcount>3</errorcount>
+          <date>2015-09-20T17:02:00</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="239">
+      <translation id="0">
+        <text>no hay más remedio</text>
+      </translation>
+      <translation id="1">
+        <text>δεν υπάρχει άλλη λύση</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:24:19</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="240">
+      <translation id="0">
+        <text>reponer</text>
+      </translation>
+      <translation id="1">
+        <text>αντικαθιστώ, ανακτώ</text>
+        <grade>
+          <currentgrade>1</currentgrade>
+          <count>3</count>
+          <errorcount>2</errorcount>
+          <date>2015-09-20T17:26:19</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="241">
+      <translation id="0">
+        <text>frigo</text>
+      </translation>
+      <translation id="1">
+        <text>ψυγείο (sl)</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:47:07</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="242">
+      <translation id="0">
+        <text>fiambres</text>
+      </translation>
+      <translation id="1">
+        <text>αλλαντικά</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:58:16</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="243">
+      <translation id="0">
+        <text>a ver</text>
+      </translation>
+      <translation id="1">
+        <text>ας δούμε</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:46:10</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="244">
+      <translation id="0">
+        <text>liado</text>
+      </translation>
+      <translation id="1">
+        <text>μπλεγμένος</text>
+        <grade>
+          <currentgrade>1</currentgrade>
+          <count>3</count>
+          <errorcount>2</errorcount>
+          <date>2015-09-20T17:20:45</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="245">
+      <translation id="0">
+        <text>date prisa</text>
+      </translation>
+      <translation id="1">
+        <text>βιάσου</text>
+        <grade>
+          <currentgrade>1</currentgrade>
+          <count>3</count>
+          <errorcount>2</errorcount>
+          <date>2015-09-20T16:57:45</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="246">
+      <translation id="0">
+        <text>no me agobies</text>
+      </translation>
+      <translation id="1">
+        <text>μη με αγχώνεις</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:53:08</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="247">
+      <translation id="0">
+        <text>empanada</text>
+      </translation>
+      <translation id="1">
+        <text>πίτα</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:24:49</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="248">
+      <translation id="0">
+        <text>de golpe</text>
+      </translation>
+      <translation id="1">
+        <text>με τη μία</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:01:19</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="249">
+      <translation id="0">
+        <text>tentación</text>
+      </translation>
+      <translation id="1">
+        <text>πειρασμός</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:20:50</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="250">
+      <translation id="0">
+        <text>fuerza de voluntad</text>
+      </translation>
+      <translation id="1">
+        <text>αυτοκυριαρχία</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:02:41</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="251">
+      <translation id="0">
+        <text>trocito</text>
+      </translation>
+      <translation id="1">
+        <text>κομμάτι</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:19:08</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="252">
+      <translation id="0">
+        <text>apuntar</text>
+      </translation>
+      <translation id="1">
+        <text>σημειώνω, γράφω</text>
+        <grade>
+          <currentgrade>1</currentgrade>
+          <count>3</count>
+          <errorcount>2</errorcount>
+          <date>2015-09-20T17:30:33</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="253">
+      <translation id="0">
+        <text>cuanto antes</text>
+      </translation>
+      <translation id="1">
+        <text>το γρηγορότερο δυνατόν</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:02:15</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="254">
+      <translation id="0">
+        <text>disponerse</text>
+      </translation>
+      <translation id="1">
+        <text>ετοιμάζομαι ναι</text>
+        <grade>
+          <currentgrade>1</currentgrade>
+          <count>3</count>
+          <errorcount>2</errorcount>
+          <date>2015-09-20T17:27:56</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="255">
+      <translation id="0">
+        <text>embutidos</text>
+      </translation>
+      <translation id="1">
+        <text>λουκάνικα</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:01:41</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="256">
+      <translation id="0">
+        <text>congelados</text>
+      </translation>
+      <translation id="1">
+        <text>κατεψυγμένα</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:26:43</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="257">
+      <translation id="0">
+        <text>detergente</text>
+      </translation>
+      <translation id="1">
+        <text>απορρυπαντικό</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:59:28</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="258">
+      <translation id="0">
+        <text>cajera</text>
+      </translation>
+      <translation id="1">
+        <text>ταμίας</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:20:38</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="259">
+      <translation id="0">
+        <text>Deja</text>
+      </translation>
+      <translation id="1">
+        <text>Άστο</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:29:43</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="260">
+      <translation id="0">
+        <text>vale de descuento</text>
+      </translation>
+      <translation id="1">
+        <text>εκπτωτικό κουπόνι</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:28:27</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="261">
+      <translation id="0">
+        <text>empezar</text>
+      </translation>
+      <translation id="1">
+        <text>αρχίζω</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:59:55</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="262">
+      <translation id="0">
+        <text>Le ha dado por</text>
+      </translation>
+      <translation id="1">
+        <text>Του την έχει δώσει με</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:19:15</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="263">
+      <translation id="0">
+        <text>meter</text>
+      </translation>
+      <translation id="1">
+        <text>τοποθετώ</text>
+        <grade>
+          <currentgrade>1</currentgrade>
+          <count>3</count>
+          <errorcount>2</errorcount>
+          <date>2015-09-20T17:02:18</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="264">
+      <translation id="0">
+        <text>bache</text>
+      </translation>
+      <translation id="1">
+        <text>λακούβα</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:19:39</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="265">
+      <translation id="0">
+        <text>contar con</text>
+      </translation>
+      <translation id="1">
+        <text>υπολογίζω</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:28:42</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="266">
+      <translation id="0">
+        <text>embotado</text>
+      </translation>
+      <translation id="1">
+        <text>μπερδεμένος</text>
+        <grade>
+          <currentgrade>1</currentgrade>
+          <count>3</count>
+          <errorcount>2</errorcount>
+          <date>2015-09-20T17:25:03</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="267">
+      <translation id="0">
+        <text>refresco</text>
+      </translation>
+      <translation id="1">
+        <text>αναψυκτικό</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:54:16</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="268">
+      <translation id="0">
+        <text>por encima</text>
+      </translation>
+      <translation id="1">
+        <text>επιφανειακά</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:27:12</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="269">
+      <translation id="0">
+        <text>adivinar</text>
+      </translation>
+      <translation id="1">
+        <text>μαντεύω</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:58:10</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="270">
+      <translation id="0">
+        <text>concienciar</text>
+      </translation>
+      <translation id="1">
+        <text>ευαισθητοποιώ</text>
+      </translation>
+    </entry>
+    <entry id="271">
+      <translation id="0">
+        <text>para mi</text>
+      </translation>
+      <translation id="1">
+        <text>κατά τη γνώμη μου</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:54:34</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="272">
+      <translation id="0">
+        <text>sacar muy buen partido</text>
+      </translation>
+      <translation id="1">
+        <text>εκμεταλλεύομαι τα χαρίσματά μου</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:24:54</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="273">
+      <translation id="0">
+        <text>llevar toda la ropa a juego</text>
+      </translation>
+      <translation id="1">
+        <text>φοράω ταιριαστά ρούχα</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:27:50</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="274">
+      <translation id="0">
+        <text>con tal de que</text>
+      </translation>
+      <translation id="1">
+        <text>με την προυπόθεση</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:03:26</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="275">
+      <translation id="0">
+        <text>como no + subj</text>
+      </translation>
+      <translation id="1">
+        <text>αφού, αμά δεν</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:54:05</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="276">
+      <translation id="0">
+        <text>desgaste</text>
+      </translation>
+      <translation id="1">
+        <text>εξάντληση</text>
+        <grade>
+          <currentgrade>1</currentgrade>
+          <count>3</count>
+          <errorcount>2</errorcount>
+          <date>2015-09-20T16:54:32</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="277">
+      <translation id="0">
+        <text>lirón</text>
+      </translation>
+      <translation id="1">
+        <text>τυφλοπόντικας</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:46:20</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="278">
+      <translation id="0">
+        <text>estirado</text>
+      </translation>
+      <translation id="1">
+        <text>τεντωμένος</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:30:39</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="279">
+      <translation id="0">
+        <text>dormir a pierna suelta</text>
+      </translation>
+      <translation id="1">
+        <text>κοιμάμαι βαθιά</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:53:15</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="280">
+      <translation id="0">
+        <text>pegar</text>
+      </translation>
+      <translation id="1">
+        <text>κολλάω/χτυπάω</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:53:47</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="281">
+      <translation id="0">
+        <text>tomar el pelo</text>
+      </translation>
+      <translation id="1">
+        <text>κοροιδεύω (δουλεύω)</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:19:12</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="282">
+      <translation id="0">
+        <text>me trae sin cuidado</text>
+      </translation>
+      <translation id="1">
+        <text>δε με νοιάζει</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:28:30</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="283">
+      <translation id="0">
+        <text>fingir</text>
+      </translation>
+      <translation id="1">
+        <text>προσποιούμαι</text>
+        <grade>
+          <currentgrade>1</currentgrade>
+          <count>3</count>
+          <errorcount>2</errorcount>
+          <date>2015-09-20T17:26:52</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="284">
+      <translation id="0">
+        <text>manirroto</text>
+      </translation>
+      <translation id="1">
+        <text>σπάταλος</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:17:07</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="285">
+      <translation id="0">
+        <text>gastar (en)</text>
+      </translation>
+      <translation id="1">
+        <text>ξοδεύω</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:21:16</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="286">
+      <translation id="0">
+        <text>vaya pinta llevaba</text>
+      </translation>
+      <translation id="1">
+        <text>ήταν κακοφτιαγμένη</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:24:29</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="287">
+      <translation id="0">
+        <text>llegar a fin de mes</text>
+      </translation>
+      <translation id="1">
+        <text>τη βγάζω ως το τέλος του μήνα</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:27:04</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="288">
+      <translation id="0">
+        <text>Que tal le va?</text>
+      </translation>
+      <translation id="1">
+        <text>Πως τα πάει;</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:29:05</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="289">
+      <translation id="0">
+        <text>se han ido a pique</text>
+      </translation>
+      <translation id="1">
+        <text>φαλήρισαν</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:59:19</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="290">
+      <translation id="0">
+        <text>tienen un aire</text>
+      </translation>
+      <translation id="1">
+        <text>μοιάζουν</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:28:06</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="291">
+      <translation id="0">
+        <text>desde luego</text>
+      </translation>
+      <translation id="1">
+        <text>σαφώς</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:59:34</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="292">
+      <translation id="0">
+        <text>tener dinero de sobra</text>
+      </translation>
+      <translation id="1">
+        <text>περισσεύουν χρήματα</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:26:37</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="293">
+      <translation id="0">
+        <text>agua del tiempo</text>
+      </translation>
+      <translation id="1">
+        <text>νερό σε θερμοκρασία περιβάλλοντος</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T16:58:22</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="294">
+      <translation id="0">
+        <text>tengo una jaqueca</text>
+      </translation>
+      <translation id="1">
+        <text>έχω ημικρανία</text>
+        <grade>
+          <currentgrade>2</currentgrade>
+          <count>2</count>
+          <errorcount>0</errorcount>
+          <date>2015-09-20T17:28:00</date>
+        </grade>
+      </translation>
+    </entry>
+    <entry id="295">
+      <translation id="0">
+        <text>adorno</text>
+      </translation>
+      <translation id="1">
+        <text>στολίδι</text>
+      </translation>
+    </entry>
+    <entry id="296">
+      <translation id="0">
+        <text>pala</text>
+      </translation>
+      <translation id="1">
+        <text>φτυάρι</text>
+      </translation>
+    </entry>
+    <entry id="297">
+      <translation id="0">
+        <text>enterrar</text>
+      </translation>
+      <translation id="1">
+        <text>θάβω</text>
+      </translation>
+    </entry>
+    <entry id="298">
+      <translation id="0">
+        <text>lector</text>
+      </translation>
+      <translation id="1">
+        <text>αναγνώστης</text>
+      </translation>
+    </entry>
+    <entry id="299">
+      <translation id="0">
+        <text>taller</text>
+      </translation>
+      <translation id="1">
+        <text>συνεργείο</text>
+      </translation>
+    </entry>
+    <entry id="300">
+      <translation id="0">
+        <text>En un punto en que</text>
+      </translation>
+      <translation id="1">
+        <text>Σε ένα σημείο όπου</text>
+      </translation>
+    </entry>
+    <entry id="301">
+      <translation id="0">
+        <text>ejemplar</text>
+      </translation>
+      <translation id="1">
+        <text>αντίγραφο</text>
+      </translation>
+    </entry>
+    <entry id="302">
+      <translation id="0">
+        <text>infantil</text>
+      </translation>
+      <translation id="1">
+        <text>παιδικό</text>
+      </translation>
+    </entry>
+    <entry id="303">
+      <translation id="0">
+        <text>enseñar</text>
+      </translation>
+      <translation id="1">
+        <text>διδάσκω</text>
+      </translation>
+    </entry>
+    <entry id="304">
+      <translation id="0">
+        <text>ilustradora</text>
+      </translation>
+      <translation id="1">
+        <text>εικονογράφος</text>
+      </translation>
+    </entry>
+    <entry id="305">
+      <translation id="0">
+        <text>esquema</text>
+      </translation>
+      <translation id="1">
+        <text>διάγραμμα</text>
+      </translation>
+    </entry>
+    <entry id="306">
+      <translation id="0">
+        <text>en vez de</text>
+      </translation>
+      <translation id="1">
+        <text>αντί</text>
+      </translation>
+    </entry>
+    <entry id="307">
+      <translation id="0">
+        <text>cordillera</text>
+      </translation>
+      <translation id="1">
+        <text>οροσειρά</text>
+      </translation>
+    </entry>
+    <entry id="308">
+      <translation id="0">
+        <text>encina</text>
+      </translation>
+      <translation id="1">
+        <text>βελανιδιά</text>
+      </translation>
+    </entry>
+    <entry id="309">
+      <translation id="0">
+        <text>árido</text>
+      </translation>
+      <translation id="1">
+        <text>ξηρό (κλίμα)</text>
+      </translation>
+    </entry>
+    <entry id="310">
+      <translation id="0">
+        <text>castigar</text>
+      </translation>
+      <translation id="1">
+        <text>τιμωρώ</text>
+      </translation>
+    </entry>
+    <entry id="311">
+      <translation id="0">
+        <text>tala</text>
+      </translation>
+      <translation id="1">
+        <text>υλοτομία</text>
+      </translation>
+    </entry>
+    <entry id="312">
+      <translation id="0">
+        <text>urbanismo</text>
+      </translation>
+      <translation id="1">
+        <text>πολεοδομία</text>
+      </translation>
+    </entry>
+    <entry id="313">
+      <translation id="0">
+        <text>ganadería</text>
+      </translation>
+      <translation id="1">
+        <text>κτηνοτροφία</text>
+      </translation>
+    </entry>
+    <entry id="314">
+      <translation id="0">
+        <text>apenas</text>
+      </translation>
+      <translation id="1">
+        <text>μόνο</text>
+      </translation>
+    </entry>
+    <entry id="315">
+      <translation id="0">
+        <text>arrastrar</text>
+      </translation>
+      <translation id="1">
+        <text>σέρνω</text>
+      </translation>
+    </entry>
+    <entry id="316">
+      <translation id="0">
+        <text>pasatiempo</text>
+      </translation>
+      <translation id="1">
+        <text>χόμπι</text>
+      </translation>
+    </entry>
+    <entry id="317">
+      <translation id="0">
+        <text>desafinarse</text>
+      </translation>
+      <translation id="1">
+        <text>χάνω τον τόνο/ρυθμό</text>
+      </translation>
+    </entry>
+    <entry id="318">
+      <translation id="0">
+        <text>gallo</text>
+      </translation>
+      <translation id="1">
+        <text>πετεινός</text>
+      </translation>
+    </entry>
+    <entry id="319">
+      <translation id="0">
+        <text>llevar de cabeza</text>
+      </translation>
+      <translation id="1">
+        <text>τρελαίνω</text>
+      </translation>
+    </entry>
+    <entry id="320">
+      <translation id="0">
+        <text>ser replicado</text>
+      </translation>
+      <translation id="1">
+        <text>αναπαράγομαι</text>
+      </translation>
+    </entry>
+    <entry id="321">
+      <translation id="0">
+        <text>serializado</text>
+      </translation>
+      <translation id="1">
+        <text>σε συνέχειες</text>
+      </translation>
+    </entry>
+    <entry id="322">
+      <translation id="0">
+        <text>embarrancar</text>
+      </translation>
+      <translation id="1">
+        <text>προσαράζω</text>
+      </translation>
+    </entry>
+    <entry id="323">
+      <translation id="0">
+        <text>advenimiento</text>
+      </translation>
+      <translation id="1">
+        <text>ερχομός</text>
+      </translation>
+    </entry>
+    <entry id="324">
+      <translation id="0">
+        <text>apelar</text>
+      </translation>
+      <translation id="1">
+        <text>ασκώ έφεση</text>
+      </translation>
+    </entry>
+    <entry id="325">
+      <translation id="0">
+        <text>elaborar</text>
+      </translation>
+      <translation id="1">
+        <text>παράγω</text>
+      </translation>
+    </entry>
+    <entry id="326">
+      <translation id="0">
+        <text>con motivo de</text>
+      </translation>
+      <translation id="1">
+        <text>με κίνητρο</text>
+      </translation>
+    </entry>
+    <entry id="327">
+      <translation id="0">
+        <text>acertar</text>
+      </translation>
+      <translation id="1">
+        <text>μαντεύω σωστά</text>
+      </translation>
+    </entry>
+    <entry id="328">
+      <translation id="0">
+        <text>nocivo</text>
+      </translation>
+      <translation id="1">
+        <text>επιβλαβής</text>
+      </translation>
+    </entry>
+    <entry id="329">
+      <translation id="0">
+        <text>taquicardia</text>
+      </translation>
+      <translation id="1">
+        <text>ταχυκαρδία</text>
+      </translation>
+    </entry>
+    <entry id="330">
+      <translation id="0">
+        <text>conocimiento</text>
+      </translation>
+      <translation id="1">
+        <text>συνείδηση</text>
+      </translation>
+    </entry>
+    <entry id="331">
+      <translation id="0">
+        <text>sustituto</text>
+      </translation>
+      <translation id="1">
+        <text>υποκατάστατο</text>
+      </translation>
+    </entry>
+    <entry id="332">
+      <translation id="0">
+        <text>gastrointestinal</text>
+      </translation>
+      <translation id="1">
+        <text>γαστρεντερικό</text>
+      </translation>
+    </entry>
+    <entry id="333">
+      <translation id="0">
+        <text>desmayo</text>
+      </translation>
+      <translation id="1">
+        <text>λιποθυμία</text>
+      </translation>
+    </entry>
+    <entry id="334">
+      <translation id="0">
+        <text>seta</text>
+      </translation>
+      <translation id="1">
+        <text>μανιτάρι</text>
+      </translation>
+    </entry>
+    <entry id="335">
+      <translation id="0">
+        <text>alucinógeno</text>
+      </translation>
+      <translation id="1">
+        <text>παραισθησιογόνο</text>
+      </translation>
+    </entry>
+    <entry id="336">
+      <translation id="0">
+        <text>ácido</text>
+      </translation>
+      <translation id="1">
+        <text>οξύ</text>
+      </translation>
+    </entry>
+    <entry id="337">
+      <translation id="0">
+        <text>gendarmería</text>
+      </translation>
+      <translation id="1">
+        <text>χωροφυλακή</text>
+      </translation>
+    </entry>
+    <entry id="338">
+      <translation id="0">
+        <text>estupefacientes</text>
+      </translation>
+      <translation id="1">
+        <text>ναρκωτικά</text>
+      </translation>
+    </entry>
+    <entry id="339">
+      <translation id="0">
+        <text>plantación</text>
+      </translation>
+      <translation id="1">
+        <text>φυτεία</text>
+      </translation>
+    </entry>
+    <entry id="340">
+      <translation id="0">
+        <text>dar paso a</text>
+      </translation>
+      <translation id="1">
+        <text>οδηγώ σε</text>
+      </translation>
+    </entry>
+    <entry id="341">
+      <translation id="0">
+        <text>escasez</text>
+      </translation>
+      <translation id="1">
+        <text>έλλειψη</text>
+      </translation>
+    </entry>
+    <entry id="342">
+      <translation id="0">
+        <text>semen</text>
+      </translation>
+      <translation id="1">
+        <text>σπέρμα</text>
+      </translation>
+    </entry>
+    <entry id="343">
+      <translation id="0">
+        <text>captar</text>
+      </translation>
+      <translation id="1">
+        <text>προσελκύω, αλιεύω</text>
+      </translation>
+    </entry>
+    <entry id="344">
+      <translation id="0">
+        <text>nacimiento</text>
+      </translation>
+      <translation id="1">
+        <text>γέννηση</text>
+      </translation>
+    </entry>
+    <entry id="345">
+      <translation id="0">
+        <text>desplazamiento</text>
+      </translation>
+      <translation id="1">
+        <text>μετατόπιση</text>
+      </translation>
+    </entry>
+    <entry id="346">
+      <translation id="0">
+        <text>sede</text>
+      </translation>
+      <translation id="1">
+        <text>έδρα, κεντρικά</text>
+      </translation>
+    </entry>
+    <entry id="347">
+      <translation id="0">
+        <text>desistir</text>
+      </translation>
+      <translation id="1">
+        <text>απέχω, αποφεύγω</text>
+      </translation>
+    </entry>
+    <entry id="348">
+      <translation id="0">
+        <text>recién</text>
+      </translation>
+      <translation id="1">
+        <text>πρόσφατα</text>
+      </translation>
+    </entry>
+    <entry id="349">
+      <translation id="0">
+        <text>idear</text>
+      </translation>
+      <translation id="1">
+        <text>επινοώ</text>
+      </translation>
+    </entry>
+    <entry id="350">
+      <translation id="0">
+        <text>óvulos</text>
+      </translation>
+      <translation id="1">
+        <text>ωάριο</text>
+      </translation>
+    </entry>
+    <entry id="351">
+      <translation id="0">
+        <text>rastrear</text>
+      </translation>
+      <translation id="1">
+        <text>ιχνηλατώ</text>
+      </translation>
+    </entry>
+    <entry id="352">
+      <translation id="0">
+        <text>reclamación</text>
+      </translation>
+      <translation id="1">
+        <text>αξίωση</text>
+      </translation>
+    </entry>
+    <entry id="353">
+      <translation id="0">
+        <text>motivo</text>
+      </translation>
+      <translation id="1">
+        <text>λόγος</text>
+      </translation>
+    </entry>
+    <entry id="354">
+      <translation id="0">
+        <text>descartarse</text>
+      </translation>
+      <translation id="1">
+        <text>απορρίπτω</text>
+      </translation>
+    </entry>
+    <entry id="355">
+      <translation id="0">
+        <text>heredero</text>
+      </translation>
+      <translation id="1">
+        <text>κληρονόμος</text>
+      </translation>
+    </entry>
+    <entry id="356">
+      <translation id="0">
+        <text>ficticio</text>
+      </translation>
+      <translation id="1">
+        <text>μυθιστορηματικός</text>
+      </translation>
+    </entry>
+    <entry id="357">
+      <translation id="0">
+        <text>reproducción asistida</text>
+      </translation>
+      <translation id="1">
+        <text>υποβοηθούμενη αναπαραγωγή</text>
+      </translation>
+    </entry>
+    <entry id="358">
+      <translation id="0">
+        <text>abismal</text>
+      </translation>
+      <translation id="1">
+        <text>αβυσσαλέα</text>
+      </translation>
+    </entry>
+    <entry id="359">
+      <translation id="0">
+        <text>regañar</text>
+      </translation>
+      <translation id="1">
+        <text>επιπλήττω</text>
+      </translation>
+    </entry>
+    <entry id="360">
+      <translation id="0">
+        <text>concertar</text>
+      </translation>
+      <translation id="1">
+        <text>οργανώνω</text>
+      </translation>
+    </entry>
+    <entry id="361">
+      <translation id="0">
+        <text>carta de presentación</text>
+      </translation>
+      <translation id="1">
+        <text>συνοδευτική επιστολή</text>
+      </translation>
+    </entry>
+    <entry id="362">
+      <translation id="0">
+        <text>fijarse</text>
+      </translation>
+      <translation id="1">
+        <text>προσέχω</text>
+      </translation>
+    </entry>
+    <entry id="363">
+      <translation id="0">
+        <text>qué tal te va todo?</text>
+      </translation>
+      <translation id="1">
+        <text>Πώς πάνε τα πράγματα;</text>
+      </translation>
+    </entry>
+    <entry id="364">
+      <translation id="0">
+        <text>sí, sí, eso es.</text>
+      </translation>
+      <translation id="1">
+        <text>Ναι ναι, έτσι.</text>
+      </translation>
+    </entry>
+    <entry id="365">
+      <translation id="0">
+        <text>preocupada</text>
+      </translation>
+      <translation id="1">
+        <text>ανήσυχη</text>
+      </translation>
+    </entry>
+    <entry id="366">
+      <translation id="0">
+        <text>Sí, soy yo, ¿qué desea?</text>
+      </translation>
+      <translation id="1">
+        <text>Ναι, εγώ. Τι θέλετε;</text>
+      </translation>
+    </entry>
+    <entry id="367">
+      <translation id="0">
+        <text>te llamo con motivo de</text>
+      </translation>
+      <translation id="1">
+        <text>σε καλώ λόγω του..</text>
+      </translation>
+    </entry>
+    <entry id="368">
+      <translation id="0"/>
+      <translation id="1"/>
+    </entry>
+  </entries>
+  <lessons>
+    <container>
+      <name>Lesson 1</name>
+      <inpractice>true</inpractice>
+      <entry id="0"/>
+      <entry id="1"/>
+      <entry id="2"/>
+      <entry id="3"/>
+      <entry id="4"/>
+      <entry id="5"/>
+      <entry id="6"/>
+      <entry id="7"/>
+      <entry id="8"/>
+      <entry id="9"/>
+      <entry id="10"/>
+      <entry id="11"/>
+      <entry id="12"/>
+      <entry id="13"/>
+      <entry id="14"/>
+      <entry id="15"/>
+      <entry id="16"/>
+      <entry id="17"/>
+      <entry id="18"/>
+      <entry id="19"/>
+      <entry id="20"/>
+      <entry id="21"/>
+      <entry id="22"/>
+      <entry id="23"/>
+      <entry id="24"/>
+      <entry id="25"/>
+      <entry id="26"/>
+      <entry id="27"/>
+      <entry id="28"/>
+      <entry id="29"/>
+      <entry id="30"/>
+      <entry id="31"/>
+      <entry id="32"/>
+      <entry id="33"/>
+      <entry id="34"/>
+      <entry id="35"/>
+      <entry id="36"/>
+      <entry id="37"/>
+      <entry id="38"/>
+      <entry id="39"/>
+      <entry id="40"/>
+      <entry id="41"/>
+      <entry id="42"/>
+      <entry id="43"/>
+      <entry id="44"/>
+      <entry id="45"/>
+      <entry id="46"/>
+      <entry id="47"/>
+      <entry id="48"/>
+      <entry id="49"/>
+      <entry id="50"/>
+      <entry id="51"/>
+      <entry id="52"/>
+      <entry id="53"/>
+      <entry id="54"/>
+      <entry id="55"/>
+      <entry id="56"/>
+      <entry id="57"/>
+      <entry id="58"/>
+      <entry id="59"/>
+      <entry id="60"/>
+      <entry id="61"/>
+      <entry id="62"/>
+      <entry id="63"/>
+      <entry id="64"/>
+      <entry id="65"/>
+      <entry id="66"/>
+      <entry id="67"/>
+      <entry id="68"/>
+      <entry id="69"/>
+      <entry id="70"/>
+      <entry id="71"/>
+      <entry id="72"/>
+      <entry id="73"/>
+      <entry id="74"/>
+      <entry id="75"/>
+      <entry id="76"/>
+      <entry id="77"/>
+      <entry id="78"/>
+      <entry id="79"/>
+      <entry id="80"/>
+      <entry id="81"/>
+      <entry id="82"/>
+      <entry id="83"/>
+      <entry id="84"/>
+      <entry id="85"/>
+      <entry id="86"/>
+      <entry id="87"/>
+      <entry id="88"/>
+      <entry id="89"/>
+      <entry id="90"/>
+      <entry id="91"/>
+      <entry id="92"/>
+      <entry id="93"/>
+      <entry id="94"/>
+      <entry id="95"/>
+      <entry id="96"/>
+      <entry id="97"/>
+      <entry id="98"/>
+      <entry id="99"/>
+      <entry id="100"/>
+      <entry id="101"/>
+      <entry id="102"/>
+      <entry id="103"/>
+      <entry id="104"/>
+      <entry id="105"/>
+      <entry id="106"/>
+      <entry id="107"/>
+      <entry id="108"/>
+      <entry id="109"/>
+      <entry id="110"/>
+      <entry id="111"/>
+      <entry id="112"/>
+      <entry id="113"/>
+      <entry id="114"/>
+      <entry id="115"/>
+      <entry id="116"/>
+      <entry id="117"/>
+      <entry id="118"/>
+      <entry id="119"/>
+      <entry id="120"/>
+      <entry id="121"/>
+      <entry id="122"/>
+      <entry id="123"/>
+      <entry id="124"/>
+      <entry id="125"/>
+      <entry id="126"/>
+      <entry id="127"/>
+      <entry id="128"/>
+      <entry id="129"/>
+      <entry id="130"/>
+      <entry id="131"/>
+      <entry id="132"/>
+      <entry id="133"/>
+      <entry id="134"/>
+      <entry id="135"/>
+      <entry id="136"/>
+      <entry id="137"/>
+      <entry id="138"/>
+      <entry id="139"/>
+      <entry id="140"/>
+      <entry id="141"/>
+      <entry id="142"/>
+      <entry id="143"/>
+      <entry id="144"/>
+      <entry id="145"/>
+      <entry id="146"/>
+      <entry id="147"/>
+      <entry id="148"/>
+      <entry id="149"/>
+      <entry id="150"/>
+      <entry id="151"/>
+      <entry id="152"/>
+      <entry id="153"/>
+      <entry id="154"/>
+      <entry id="155"/>
+      <entry id="156"/>
+      <entry id="157"/>
+      <entry id="158"/>
+      <entry id="159"/>
+      <entry id="160"/>
+      <entry id="161"/>
+      <entry id="162"/>
+      <entry id="163"/>
+      <entry id="164"/>
+      <entry id="165"/>
+      <entry id="166"/>
+      <entry id="167"/>
+      <entry id="168"/>
+      <entry id="169"/>
+      <entry id="170"/>
+      <entry id="171"/>
+      <entry id="172"/>
+      <entry id="173"/>
+      <entry id="174"/>
+      <entry id="175"/>
+      <entry id="176"/>
+      <entry id="177"/>
+      <entry id="178"/>
+      <entry id="179"/>
+      <entry id="180"/>
+      <entry id="181"/>
+      <entry id="182"/>
+      <entry id="183"/>
+      <entry id="184"/>
+      <entry id="185"/>
+      <entry id="186"/>
+      <entry id="187"/>
+      <entry id="188"/>
+      <entry id="189"/>
+      <entry id="190"/>
+      <entry id="191"/>
+      <entry id="192"/>
+      <entry id="193"/>
+      <entry id="194"/>
+      <entry id="195"/>
+      <entry id="196"/>
+      <entry id="197"/>
+      <entry id="198"/>
+      <entry id="199"/>
+      <entry id="200"/>
+      <entry id="201"/>
+      <entry id="202"/>
+      <entry id="203"/>
+      <entry id="204"/>
+      <entry id="205"/>
+      <entry id="206"/>
+      <entry id="207"/>
+      <entry id="208"/>
+      <entry id="209"/>
+      <entry id="210"/>
+      <entry id="211"/>
+      <entry id="212"/>
+      <entry id="213"/>
+      <entry id="214"/>
+      <entry id="215"/>
+      <entry id="216"/>
+      <entry id="217"/>
+      <entry id="218"/>
+      <entry id="219"/>
+      <entry id="220"/>
+      <entry id="221"/>
+      <entry id="222"/>
+      <entry id="223"/>
+      <entry id="224"/>
+      <entry id="225"/>
+      <entry id="226"/>
+      <entry id="227"/>
+      <entry id="228"/>
+      <entry id="229"/>
+      <entry id="230"/>
+      <entry id="231"/>
+      <entry id="232"/>
+      <entry id="233"/>
+      <entry id="234"/>
+      <entry id="235"/>
+      <entry id="236"/>
+      <entry id="237"/>
+      <entry id="238"/>
+      <entry id="239"/>
+      <entry id="240"/>
+      <entry id="241"/>
+      <entry id="242"/>
+      <entry id="243"/>
+      <entry id="244"/>
+      <entry id="245"/>
+      <entry id="246"/>
+      <entry id="247"/>
+      <entry id="248"/>
+      <entry id="249"/>
+      <entry id="250"/>
+      <entry id="251"/>
+      <entry id="252"/>
+      <entry id="253"/>
+      <entry id="254"/>
+      <entry id="255"/>
+      <entry id="256"/>
+      <entry id="257"/>
+      <entry id="258"/>
+      <entry id="259"/>
+      <entry id="260"/>
+      <entry id="261"/>
+      <entry id="262"/>
+      <entry id="263"/>
+      <entry id="264"/>
+      <entry id="265"/>
+      <entry id="266"/>
+      <entry id="267"/>
+      <entry id="268"/>
+      <entry id="269"/>
+      <entry id="270"/>
+      <entry id="271"/>
+      <entry id="272"/>
+      <entry id="273"/>
+      <entry id="274"/>
+      <entry id="275"/>
+      <entry id="276"/>
+      <entry id="277"/>
+      <entry id="278"/>
+      <entry id="279"/>
+      <entry id="280"/>
+      <entry id="281"/>
+      <entry id="282"/>
+      <entry id="283"/>
+      <entry id="284"/>
+      <entry id="285"/>
+      <entry id="286"/>
+      <entry id="287"/>
+      <entry id="288"/>
+      <entry id="289"/>
+      <entry id="290"/>
+      <entry id="291"/>
+      <entry id="292"/>
+      <entry id="293"/>
+      <entry id="294"/>
+      <entry id="295"/>
+      <entry id="296"/>
+      <entry id="297"/>
+      <entry id="298"/>
+      <entry id="299"/>
+      <entry id="300"/>
+      <entry id="301"/>
+      <entry id="302"/>
+      <entry id="303"/>
+      <entry id="304"/>
+      <entry id="305"/>
+      <entry id="306"/>
+      <entry id="307"/>
+      <entry id="308"/>
+      <entry id="309"/>
+      <entry id="310"/>
+      <entry id="311"/>
+      <entry id="312"/>
+      <entry id="313"/>
+      <entry id="314"/>
+      <entry id="315"/>
+      <entry id="316"/>
+      <entry id="317"/>
+      <entry id="318"/>
+      <entry id="319"/>
+      <entry id="320"/>
+      <entry id="321"/>
+      <entry id="322"/>
+      <entry id="323"/>
+      <entry id="324"/>
+      <entry id="325"/>
+      <entry id="326"/>
+      <entry id="327"/>
+      <entry id="328"/>
+      <entry id="329"/>
+      <entry id="330"/>
+      <entry id="331"/>
+      <entry id="332"/>
+      <entry id="333"/>
+      <entry id="334"/>
+      <entry id="335"/>
+      <entry id="336"/>
+      <entry id="337"/>
+      <entry id="338"/>
+      <entry id="339"/>
+      <entry id="340"/>
+      <entry id="341"/>
+      <entry id="342"/>
+      <entry id="343"/>
+      <entry id="344"/>
+      <entry id="345"/>
+      <entry id="346"/>
+      <entry id="347"/>
+      <entry id="348"/>
+      <entry id="349"/>
+      <entry id="350"/>
+      <entry id="351"/>
+      <entry id="352"/>
+      <entry id="353"/>
+      <entry id="354"/>
+      <entry id="355"/>
+      <entry id="356"/>
+      <entry id="357"/>
+      <entry id="358"/>
+      <entry id="359"/>
+      <entry id="360"/>
+      <entry id="361"/>
+      <entry id="362"/>
+      <entry id="363"/>
+      <entry id="364"/>
+      <entry id="365"/>
+      <entry id="366"/>
+      <entry id="367"/>
+      <entry id="368"/>
+    </container>
+  </lessons>
+  <wordtypes>
+    <container>
+      <name>Noun</name>
+      <specialwordtype>noun</specialwordtype>
+      <container>
+        <name>Masculine</name>
+        <specialwordtype>noun/male</specialwordtype>
+      </container>
+      <container>
+        <name>Feminine</name>
+        <specialwordtype>noun/female</specialwordtype>
+      </container>
+      <container>
+        <name>Neuter</name>
+        <specialwordtype>noun/neutral</specialwordtype>
+      </container>
+    </container>
+    <container>
+      <name>Verb</name>
+      <specialwordtype>verb</specialwordtype>
+    </container>
+    <container>
+      <name>Adjective</name>
+      <specialwordtype>adjective</specialwordtype>
+      <entry id="23">
+        <translation id="0"/>
+      </entry>
+    </container>
+    <container>
+      <name>Adverb</name>
+      <specialwordtype>adverb</specialwordtype>
+    </container>
+    <container>
+      <name>Conjunction</name>
+      <specialwordtype>conjunction</specialwordtype>
+    </container>
+  </wordtypes>
+</kvtml>
