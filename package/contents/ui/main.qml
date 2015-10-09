@@ -38,12 +38,14 @@ MemoryGame {
     { // Level 1
       columns: 3,
       rows: 2,
+      images: memorygame.images,
       texts: memorygame.texts,
       hintTime: 3000
     },
     { // Level 2
       columns: 4,
       rows: 3,
+      images: memorygame.images,
       texts: memorygame.texts,
       hintTime: 6000
     }
@@ -51,6 +53,7 @@ MemoryGame {
     { // Level 3
       columns: 4,
       rows: 4,
+      images: memorygame.images,
       texts: memorygame.texts,
       hintTime: 10000
     }
@@ -74,7 +77,7 @@ MemoryGame {
     
     XmlRole { 
       name: "image0" 
-      query: "translation[@id='1']/image/string()" 
+      query: "translation[@id='0']/image/string()" 
     }
     
     XmlRole { 
@@ -89,6 +92,7 @@ MemoryGame {
           if(xmlListModel.get(i).translation0 !== "" && xmlListModel.get(i).translation1 !== "") {
             memorygame.texts.push([xmlListModel.get(i).translation0,xmlListModel.get(i).translation1]);
             memorygame.images.push([xmlListModel.get(i).image0,xmlListModel.get(i).image1]);
+            console.log(i + ": " + texts[i][0] + " " + texts[i][1] + " - " + images[i][0] + " " + images[i][1]); 
           }
         }
       }

@@ -102,6 +102,7 @@ Flipable {
             anchors.centerIn: parent
             fillMode: Image.PreserveAspectFit
             visible: card.useImages
+            Component.onCompleted: {console.log("source: " + source); }
         }
 
         PlasmaComponents.Label {
