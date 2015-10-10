@@ -96,13 +96,15 @@ Flipable {
         anchors.fill: parent
         
         Image {
+            id: cardImage
+            
             source: card.pairData.image
-            sourceSize.width: parent.width
-            sourceSize.height: parent.height
+            sourceSize.width: parent.width * 0.95
+            sourceSize.height: parent.height * 0.95
             anchors.centerIn: parent
             fillMode: Image.PreserveAspectFit
-            visible: card.useImages
-            Component.onCompleted: {console.log("source: " + source); }
+            visible: card.useImages && source !== ""
+//             Component.onCompleted: {console.log("source: " + source); } //TODO: Remove
         }
 
         PlasmaComponents.Label {
@@ -120,6 +122,7 @@ Flipable {
             verticalAlignment: Text.AlignVCenter
             text: card.pairData.text
             wrapMode: Text.Wrap
+            visible: (!card.useImages || (card.useImages && cardImage.source == "") )
         }
       
     }

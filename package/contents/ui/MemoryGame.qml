@@ -36,6 +36,7 @@ Item {
 
     property string backgroundImg
     property var dataset
+    property string kvtmlFile
 
     Rectangle {
       id: background
@@ -45,9 +46,8 @@ Item {
       focus: true
       signal start
       signal stop
-
       property alias items: items 
-
+      
       QtObject { 
           id: items
 
@@ -143,7 +143,8 @@ Item {
           
           onClicked: {
             memoryGame.focus =  true;
-            Game.start(items);        
+            Game.start(items);       
+//             console.log("Game started using memoryFile: " + memoryGame.kvtmlFile); //TODO: Remove
           }
         }
         

@@ -34,7 +34,7 @@ Item {
   property alias cfg_zoomlevel: zoomlevel.value
   property alias cfg_memoryfile: memoryfile.text
   property alias cfg_useimages: useimages.checked
-    
+  
   QtControls.GroupBox {
     flat: true
     QtLayouts.Layout.fillWidth: true
@@ -59,7 +59,7 @@ Item {
           id: zoomlevel
           
           minimumValue: 100
-          maximumValue : 300
+          maximumValue : 500
         }
 
         QtControls.Label {
@@ -103,10 +103,12 @@ Item {
     nameFilters: [ i18n("kvtml files") + " (*.kvtml)"]
     
     onAccepted: {
-      memoryfile.text = fileDialog.fileUrl
+      memoryfile.text = fileDialog.fileUrl;
+      console.log("memoryfile.text: " + memoryfile.text);
+      
     }
-    onRejected: {
-      console.log("Canceled");
-    }
+//     onRejected: { //TODO: Delete
+//       console.log("Canceled");
+//     }
   }
 }

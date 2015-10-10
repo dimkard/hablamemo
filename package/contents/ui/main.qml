@@ -29,7 +29,7 @@ MemoryGame {
   width: 800
   height: 600
   
-  property string kvtmlFile: plasmoid.configuration.memoryfile //TODO: Review
+  kvtmlFile: plasmoid.configuration.memoryfile //TODO: Review
   property variant texts: []
   property variant images: []
 
@@ -86,13 +86,22 @@ MemoryGame {
     }    
     
     onStatusChanged: {
+      var textsArray = [], imageFile0 = "", imageFile1 = "", folderPath = "";
+      var fileRegExp = /[^\/]*$/;
+      
       if (xmlListModel.status === XmlListModel.Ready) {
-        var textsArray = [];
+        memorygame.texts = []; // Clear datasets since file may have changed
+        memorygame.images = [];
+        folderPath = kvtmlFile.replace(fileRegExp, '');
+//         console.log("folderPath: " + folderPath);
         for (var i = 0; i < xmlListModel.count; i++) {
           if(xmlListModel.get(i).translation0 !== "" && xmlListModel.get(i).translation1 !== "") {
             memorygame.texts.push([xmlListModel.get(i).translation0,xmlListModel.get(i).translation1]);
-            memorygame.images.push([xmlListModel.get(i).image0,xmlListModel.get(i).image1]);
-            console.log(i + ": " + texts[i][0] + " " + texts[i][1] + " - " + images[i][0] + " " + images[i][1]); 
+            imageFile0 = xmlListModel.get(i).image0;
+            imageFile1 = xmlListModel.get(i).image1;
+//             console.log ("imageFile0 : " + imageFile0 + ", " + imageFile1 );   //TODO: Remove
+            memorygame.images.push([(imageFile0 !== "") ? folderPath + imageFile0 : (imageFile1 !== "") ? folderPath + imageFile1 : "", ""]);
+//             console.log(i + ": " + texts[i][0] + " " + texts[i][1] + " - " + images[i][0] + " " + images[i][1]);  //TODO: Remove
           }
         }
       }

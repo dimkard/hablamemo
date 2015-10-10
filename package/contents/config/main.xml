@@ -8,7 +8,7 @@
     <entry name="zoomlevel" type="Int">
       <default>100</default>
       <min>100</min>
-      <max>300</max>
+      <max>500</max>
     </entry>
     <entry name="memoryfile" type="String">
       <default></default>
@@ -16,5 +16,5 @@
     <entry name="useimages" type="Bool">
       <default>false</default>
     </entry>
-  </group>
+    </group>
 </kcfg>
