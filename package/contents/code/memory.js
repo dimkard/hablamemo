@@ -129,6 +129,7 @@ function getShownPair() {
 
 function reverseCardsIfNeeded() {
 	if(items.playQueue.length >= 2) {
+                items.numOfTries = items.numOfTries + 1; //to count total score
 		items.selectionCount = 0;
 		var item1 = items.playQueue.shift();
 		var item2 = items.playQueue.shift();
@@ -146,7 +147,8 @@ function reverseCardsIfNeeded() {
 			if(cardLeft === 0) { // no more cards in the level
 			  youWon();          
 			}
-		} else {
+		} 
+		else {
 			// pictures clicked are not the same
 			item1.card.isBack = true;
 			item2.card.isBack = true;
@@ -157,6 +159,11 @@ function reverseCardsIfNeeded() {
 //To be executed upon game completion
 function youWon() {
 	console.log("WIN!");
+        console.log("tries: " + items.numOfTries); //TODO: Remove
+        console.log("playerScore: " + items.playerScore); //TODO: Remove
+        console.log("Score: " + items.playerScore/items.numOfTries*100); //TODO: Remove
+        items.numOfTries = 0;
+        items.playerScore = 0;
 }
 
 //Go one level forward

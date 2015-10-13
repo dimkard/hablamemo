@@ -53,6 +53,7 @@ Item {
 
           property var playQueue
           property int playerScore: 0
+          property int numOfTries: 0
           property int selectionCount
           property variant dataset: memoryGame.dataset
           property alias containerModel: containerModel
