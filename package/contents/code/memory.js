@@ -33,6 +33,8 @@ var cardList;
 
 function start(items_) {
 	items = items_;
+        items.numOfTries = 0;
+        items.playerScore = 0;
 	numberOfLevel = items.dataset.length;
 	initLevel();    
 }
@@ -162,8 +164,6 @@ function youWon() {
         console.log("tries: " + items.numOfTries); //TODO: Remove
         console.log("playerScore: " + items.playerScore); //TODO: Remove
         console.log("Score: " + items.playerScore/items.numOfTries*100); //TODO: Remove
-        items.numOfTries = 0;
-        items.playerScore = 0;
 }
 
 //Go one level forward
