@@ -49,18 +49,47 @@ Item {
       property alias items: items 
       
       QtObject { 
-          id: items
+        id: items
 
-          property var playQueue
-          property int playerScore: 0
-          property int numOfTries: 0
-          property int selectionCount
-          property variant dataset: memoryGame.dataset
-          property alias containerModel: containerModel
-          property alias cardRepeater: cardRepeater
-          property alias grid: grid
-          property int columns
-          property int rows
+        property var playQueue
+        property int playerScore: 0
+        property int numOfTries: 0
+        property string winMessage: ""
+        property bool gameCompleted: false
+        property int selectionCount
+        property variant dataset: memoryGame.dataset
+        property alias containerModel: containerModel
+        property alias cardRepeater: cardRepeater
+        property alias grid: grid
+        property int columns
+        property int rows
+        
+        onGameCompletedChanged : {
+          var messageStage = "";
+          if (gameCompleted == true) {
+            messageStage = i18n("Game completed!");
+            if (items.numOfTries > items.playerScore) {
+              if (items.numOfTries - items.playerScore === 1) {
+                messageStage = messageStage + " " + i18n("You made just one mistake!");
+              }
+              else {
+                messageStage = messageStage + " " + i18n("You made %1 mistakes.", items.numOfTries - items.playerScore);
+              }
+            }
+            messageStage = messageStage + "\n\n" + i18n("Press 'Play' to start a new game.");
+            items.winMessage = messageStage;
+            console.log("WIN!"); //TODO: Remove
+            console.log("tries: " + items.numOfTries); //TODO: Remove
+            console.log("playerScore: " + items.playerScore); //TODO: Remove
+            console.log("Score: " + items.playerScore/items.numOfTries*100); //TODO: Remove
+            rotateAnim.start();
+//             heightAnim.start(); //TODO: Review
+//             widthAnim.start(); //TODO: Review
+          }        
+          else {
+           items.winMessage = "";
+          }
+        }
       }
 
       ListModel {
@@ -102,6 +131,95 @@ Item {
                   duration: 2000
               }
           }
+      }
+      
+      Rectangle {
+        id: messageContainer
+        
+        anchors.centerIn: parent
+        visible: items.gameCompleted
+        clip: true
+        color: "transparent"
+        width:  childrenRect.width // 0
+        height: childrenRect.height // 0
+        
+        Behavior on width { //TODO: Review
+          animation: NumberAnimation {
+            duration: 3000
+            easing.type: Easing.InOutCubic
+          }
+        }
+        
+        Behavior on height {
+          animation: NumberAnimation {
+            duration: 3000
+            easing.type: Easing.InOutCubic
+          }
+        }
+        
+//         NumberAnimation { //TODO: Review
+//           id: widthAnim
+// 
+//           duration: 4000
+//           property: "width"
+//           target: messageContainer
+//           from: 0
+//           to: childrenRect.width
+//           easing.type: Easing.InOutCubic
+//         }
+//         
+//         NumberAnimation { //TODO: Review
+//           id: heightAnim
+//           
+//           duration: 4000
+//           property: "height"
+//           target: messageContainer
+//           from: 0
+//           to: childrenRect.height
+//           easing.type: Easing.InOutCubic
+//         }
+//         
+        RotationAnimation {
+          id: rotateAnim
+          
+          direction: RotationAnimation.Clockwise
+          property: "rotation"
+          target: messageContainer
+          from: 0
+          to: 5*360
+          duration: 3000
+          easing.type: Easing.InOutCubic
+          
+        }
+          
+//         Component.onCompleted: { //TODO: Delete
+//           console.log("onCompleted.width: " + width);
+//           console.log("onCompleted.implicitWidth  : " + implicitWidth);
+//         }        
+//         onImplicitWidthChanged: { //TODO: Delete
+//           console.log("implicitWidth: " + implicitWidth);
+//         }
+//         onWidthChanged: { //TODO: Delete
+//           console.log("width (change): " + width);
+//         }
+//         onYChanged: { //TODO: Delete
+//           console.log("Y: " + y);
+//         }  
+//         onXChanged: { //TODO: Delete
+//           console.log("X: " + x );
+//         }           
+//         
+        PlasmaComponents.Label {
+          id: winMessage
+          
+          //anchors.centerIn: parent
+          font.pointSize: theme.defaultFont.pointSize * (plasmoid.configuration.zoomlevel/100)
+          fontSizeMode: Text.Fit //Text.Fit vs Text.FixedSize 
+          horizontalAlignment: Text.AlignHCenter
+          verticalAlignment: Text.AlignVCenter
+          text: items.winMessage
+          wrapMode: Text.Wrap
+        }
       }
       
       Row { 

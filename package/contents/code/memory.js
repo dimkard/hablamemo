@@ -35,6 +35,7 @@ function start(items_) {
 	items = items_;
         items.numOfTries = 0;
         items.playerScore = 0;
+        items.gameCompleted = false;
 	numberOfLevel = items.dataset.length;
 	initLevel();    
 }
@@ -160,10 +161,7 @@ function reverseCardsIfNeeded() {
 
 //To be executed upon game completion
 function youWon() {
-	console.log("WIN!");
-        console.log("tries: " + items.numOfTries); //TODO: Remove
-        console.log("playerScore: " + items.playerScore); //TODO: Remove
-        console.log("Score: " + items.playerScore/items.numOfTries*100); //TODO: Remove
+  items.gameCompleted = true;
 }
 
 //Go one level forward
