@@ -32,131 +32,122 @@ var cardLeft;
 var cardList;
 
 function start(items_) {
-	items = items_;
-        items.numOfTries = 0;
-        items.playerScore = 0;
-        items.gameCompleted = false;
-	numberOfLevel = items.dataset.length;
-	initLevel();    
+  items = items_;
+  items.numOfTries = 0;
+  items.playerScore = 0;
+  items.gameCompleted = false;
+  numberOfLevel = items.dataset.length;
+  initLevel();    
 }
 
 function stop() {
 }
 
 function initLevel() {
-	items.containerModel.clear();
-	items.playQueue = [];
-	items.selectionCount = 0;
+  items.containerModel.clear();
+  items.playQueue = [];
+  items.selectionCount = 0;
 
-	// compute the number of cards
-	var columns = items.dataset[currentLevel].columns;
-	var rows = items.dataset[currentLevel].rows;
-	var images = items.dataset[currentLevel].images;
-	var sounds = items.dataset[currentLevel].sounds;
-	var texts = items.dataset[currentLevel].texts;
-	items.columns = columns;
-	items.rows = rows;
-	nbOfPair = rows * columns / 2;
-	cardLeft = nbOfPair * 2;
+  // compute the number of cards
+  var columns = items.dataset[currentLevel].columns;
+  var rows = items.dataset[currentLevel].rows;
+  var images = items.dataset[currentLevel].images;
+  var sounds = items.dataset[currentLevel].sounds;
+  var texts = items.dataset[currentLevel].texts;
+  items.columns = columns;
+  items.rows = rows;
+  nbOfPair = rows * columns / 2;
+  cardLeft = nbOfPair * 2;
 
-	// Check the provided dataset has enough data
-	var maxData = Math.max(
-				images ? images.length : 0,
-				sounds ? sounds.length : 0,
-				texts ? texts.length : 0);
+  // Check the provided dataset has enough data
+  var maxData = Math.max(
+                          images ? images.length : 0,
+                          sounds ? sounds.length : 0,
+                          texts ? texts.length : 0);
 
-	if(rows * columns > maxData) {
-		console.log("ERROR: Memory dataset does not have enough data pairs at level ",
-					currentLevel + 1);
-		return
-	}
+  if(rows * columns > maxData) {
+    console.log("ERROR: Memory dataset does not have enough data pairs at level ", currentLevel + 1);
+    return
+  }
 
-	// Create a list of indexes for the shuffling
-	// This way we can keep the 3 lists in sync
-	var shuffleIds = []
-	for(var i = 0;  i < maxData; ++i) {
-		shuffleIds.push(i);
-	}
-	shuffle(shuffleIds);
+  // Create a list of indexes for the shuffling
+  // This way we can keep the 3 lists in sync
+  var shuffleIds = []
+  for(var i = 0;  i < maxData; ++i) {
+    shuffleIds.push(i);
+  }
+  shuffle(shuffleIds);
 
-	// place randomly a level-defined number of pairs
-	cardList = []
-	for(var ix = 0;  ix < nbOfPair; ++ix) {
-		// select a random item
-		for(var j = 0; j < 2; ++j) {
-			cardList.push( {
-				image: images ? images[shuffleIds[ix]][j] : "",
-				sound: sounds ? sounds[shuffleIds[ix]][j] : "",
-				text: texts ? texts[shuffleIds[ix]][j] : "",
-				matchCode: ix,
-			} );
-		}
-	}
+  // place randomly a level-defined number of pairs
+  cardList = []
+  for(var ix = 0;  ix < nbOfPair; ++ix) {
+    // select a random item
+    for(var j = 0; j < 2; ++j) {
+      cardList.push( {
+                    image: images ? images[shuffleIds[ix]][j] : "",
+                    sound: sounds ? sounds[shuffleIds[ix]][j] : "",
+                    text: texts ? texts[shuffleIds[ix]][j] : "",
+                    matchCode: ix,
+            } );
+    }
+  }
 
-	cardList = shuffle(cardList)
+  cardList = shuffle(cardList)
 
-	// fill the model
-	for(i = 0;  i < cardList.length; ++i) {
-		items.containerModel.append( { pairData_: cardList[i] } );
-	}
-	
-	//memory hint
-	var cardItem1;
-	for(var j = 0;  j < cardList.length; ++j) { 
-		cardItem1 = items.cardRepeater.itemAt(j);
-		cardItem1.hintInterval = items.dataset[currentLevel].hintTime;
-		cardItem1.memoryHintTimer.start();
-	}     
+  // fill the model
+  for(i = 0;  i < cardList.length; ++i) {
+          items.containerModel.append( { pairData_: cardList[i] } );
+  }
+
+  //memory hint
+  var cardItem1;
+  for(var j = 0;  j < cardList.length; ++j) { 
+    cardItem1 = items.cardRepeater.itemAt(j);
+    cardItem1.hintInterval = items.dataset[currentLevel].hintTime;
+    cardItem1.memoryHintTimer.start();
+  }     
 }
 
 // Return a pair of cards that have already been shown
 function getShownPair() {
-
-	for(var i = 0;  i < nbOfPair * 2; ++i) {
-		var cardItem1 = items.cardRepeater.itemAt(i);
-		for(var j = 0;  j < nbOfPair * 2; ++j) {
-			var cardItem2 = items.cardRepeater.itemAt(j);
-			if(i != j &&
-				!cardItem1.isFound &&
-				cardItem1.isShown &&
-				!cardItem2.isFound &&
-				cardItem2.isShown &&
-				(cardItem1.pairData.matchCode ===
-				 cardItem2.pairData.matchCode) ) {
-				return [cardItem1, cardItem2];
-			}
-		}
-	}
-	return
+  for(var i = 0;  i < nbOfPair * 2; ++i) {
+    var cardItem1 = items.cardRepeater.itemAt(i);
+    for(var j = 0;  j < nbOfPair * 2; ++j) {
+      var cardItem2 = items.cardRepeater.itemAt(j);
+      if(i != j && !cardItem1.isFound && cardItem1.isShown && !cardItem2.isFound && cardItem2.isShown && (cardItem1.pairData.matchCode === cardItem2.pairData.matchCode) ) {
+        return [cardItem1, cardItem2];
+      }
+    }
+  }
+  return
 }
 
 function reverseCardsIfNeeded() {
-	if(items.playQueue.length >= 2) {
-                items.numOfTries = items.numOfTries + 1; //to count total score
-		items.selectionCount = 0;
-		var item1 = items.playQueue.shift();
-		var item2 = items.playQueue.shift();
+  if(items.playQueue.length >= 2) {
+    items.numOfTries = items.numOfTries + 1; //to count total score
+    items.selectionCount = 0;
+    var item1 = items.playQueue.shift();
+    var item2 = items.playQueue.shift();
 
-		if (item1.card.pairData.matchCode ===
-			item2.card.pairData.matchCode) {
-			// the 2 cards are the same
-			item1.card.isBack = false; // stay faced
-			item1.card.isFound = true; // signal for hidden state
-			item2.card.isBack = false;
-			item2.card.isFound = true;
-			cardLeft = cardLeft - 2;
-			items.playerScore++;
+    if (item1.card.pairData.matchCode === item2.card.pairData.matchCode) {
+      // the 2 cards are the same
+      item1.card.isBack = false; // stay faced
+      item1.card.isFound = true; // signal for hidden state
+      item2.card.isBack = false;
+      item2.card.isFound = true;
+      cardLeft = cardLeft - 2;
+      items.playerScore++;
 
-			if(cardLeft === 0) { // no more cards in the level
-			  youWon();          
-			}
-		} 
-		else {
-			// pictures clicked are not the same
-			item1.card.isBack = true;
-			item2.card.isBack = true;
-		}
-	}
+      if(cardLeft === 0) { // no more cards in the level
+        youWon();          
+      }
+    } 
+    else {
+      // pictures clicked are not the same
+      item1.card.isBack = true;
+      item2.card.isBack = true;
+    }
+  }
 }
 
 //To be executed upon game completion
@@ -166,37 +157,36 @@ function youWon() {
 
 //Go one level forward
 function nextLevel() {
-	if(numberOfLevel <= ++currentLevel ) {
-		currentLevel = numberOfLevel-1;
-	}
-	initLevel();
+  if(numberOfLevel <= ++currentLevel ) {
+    currentLevel = numberOfLevel-1;
+  }
+  initLevel();
 }
 
 //Go one level back
 function previousLevel() {
-	if(--currentLevel < 0) {
-		currentLevel = 0;
-	}
-	initLevel();
+  if(--currentLevel < 0) {
+    currentLevel = 0;
+  }
+  initLevel();
 }
 
 //Set game level
 function setLevel(userLevel) {
-	if(userLevel>= 0) {
-		currentLevel = userLevel;
-	}
+  if(userLevel>= 0) {
+    currentLevel = userLevel;
+  }
 }
 
 // Return true is we have enough to make a pair
 function addPlayQueue(card) {
-	items.playQueue.push({'card': card });
-	return items.playQueue.length >= 2;
+  items.playQueue.push({'card': card });
+  return items.playQueue.length >= 2;
 }
 
 
 //Shuffle the array items and return it.
 function shuffle(o) {
-	for(var j, x, i = o.length; i;
-		j = Math.floor(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
-	return o;
+  for(var j, x, i = o.length; i; j = Math.floor(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
+  return o;
 }

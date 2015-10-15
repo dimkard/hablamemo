@@ -1,6 +1,5 @@
  /* hablamemo - configGeneral.qml
  *
- * 
  * Copyright (C) 2015 Dimitris Kardarakos <dimkard@gmail.com> 
  * 
  * Authors:
@@ -28,13 +27,13 @@ import QtQuick.Dialogs 1.2 as Dialogs
 Item {
   id: generalPage
 
-  width: childrenRect.width
-  height: childrenRect.height
-
   property alias cfg_zoomlevel: zoomlevel.value
   property alias cfg_memoryfile: memoryfile.text
   property alias cfg_useimages: useimages.checked
   
+  width: childrenRect.width
+  height: childrenRect.height
+
   QtControls.GroupBox {
     flat: true
     QtLayouts.Layout.fillWidth: true
@@ -103,12 +102,7 @@ Item {
     nameFilters: [ i18n("kvtml files") + " (*.kvtml)"]
     
     onAccepted: {
-      memoryfile.text = fileDialog.fileUrl;
-      console.log("memoryfile.text: " + memoryfile.text);
-      
+      memoryfile.text = fileDialog.fileUrl;      
     }
-//     onRejected: { //TODO: Delete
-//       console.log("Canceled");
-//     }
   }
 }

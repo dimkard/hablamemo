@@ -30,243 +30,217 @@ import "../code/memory.js" as Game
 import org.kde.plasma.components 2.0 as PlasmaComponents
 
 Item {
-    id: memoryGame
+
+  id: memoryGame
+
+  property string backgroundImg
+  property var dataset
+  property string kvtmlFile
+
+  focus: true
+
+  Rectangle {
+    id: background
+
+    property alias items: items 
+
+    signal start
+    signal stop
+
+    color: "transparent" //TODO: Review theme.backgroundColor   
+    anchors.fill: parent
     focus: true
+    
+    QtObject { 
+      id: items
 
-
-    property string backgroundImg
-    property var dataset
-    property string kvtmlFile
-
-    Rectangle {
-      id: background
-
-      color: "transparent" //TODO: Review theme.backgroundColor   
-      anchors.fill: parent
-      focus: true
-      signal start
-      signal stop
-      property alias items: items 
+      property var playQueue
+      property int playerScore: 0
+      property int numOfTries: 0
+      property string winMessage: ""
+      property bool gameCompleted: false
+      property int selectionCount
+      property variant dataset: memoryGame.dataset
+      property alias containerModel: containerModel
+      property alias cardRepeater: cardRepeater
+      property alias grid: grid
+      property int columns
+      property int rows
       
-      QtObject { 
-        id: items
-
-        property var playQueue
-        property int playerScore: 0
-        property int numOfTries: 0
-        property string winMessage: ""
-        property bool gameCompleted: false
-        property int selectionCount
-        property variant dataset: memoryGame.dataset
-        property alias containerModel: containerModel
-        property alias cardRepeater: cardRepeater
-        property alias grid: grid
-        property int columns
-        property int rows
-        
-        onGameCompletedChanged : {
-          var messageStage = "";
-          if (gameCompleted == true) {
-            messageStage = i18n("Game completed!");
-            if (items.numOfTries > items.playerScore) {
-              if (items.numOfTries - items.playerScore === 1) {
-                messageStage = messageStage + " " + i18n("You made just one mistake!");
-              }
-              else {
-                messageStage = messageStage + " " + i18n("You made %1 mistakes.", items.numOfTries - items.playerScore);
-              }
-            }
-            messageStage = messageStage + "\n\n" + i18n("Press 'Play' to start a new game.");
-            items.winMessage = messageStage;
-            console.log("WIN!"); //TODO: Remove
-            console.log("tries: " + items.numOfTries); //TODO: Remove
-            console.log("playerScore: " + items.playerScore); //TODO: Remove
-            console.log("Score: " + items.playerScore/items.numOfTries*100); //TODO: Remove
-            rotateAnim.start();
-//             heightAnim.start(); //TODO: Review
-//             widthAnim.start(); //TODO: Review
-          }        
-          else {
-           items.winMessage = "";
-          }
+      onGameCompletedChanged : {
+        var messageStage = "";
+        if (gameCompleted == true) {
+          messageStage = i18n("Game completed!\n");
+          messageStage = messageStage + " " + i18n("Mistakes:" + " " + (items.numOfTries - items.playerScore) + "\n");
+          messageStage = messageStage + i18n("Press 'Play' to start again.");
+          items.winMessage = messageStage;
+          rotateAnim.start();
+          heightAnim.start();
+          widthAnim.start();
+        }        
+        else {
+          items.winMessage = "";
         }
-      }
-
-      ListModel {
-          id: containerModel
-      }
-
-      Grid { 
-          id: grid
-          spacing: 15 
-          columns: items.columns
-          rows: items.rows
-          anchors {
-              leftMargin : 5
-              topMargin: 5
-              left: background.left
-              right: background.rigth
-              top: background.top
-          }
-
-          Repeater {
-              id: cardRepeater
-              model: containerModel
-
-              delegate: CardItem {
-                  pairData: pairData_
-                  width: (background.width - (grid.columns + 1) * grid.spacing) / grid.columns
-                  height: (background.height - (grid.rows + 1) * grid.spacing) / (grid.rows + 0.5)
-              }
-          }
-
-          add: Transition {
-              PathAnimation {
-                  path: Path {
-                      PathCurve { x: background.width / 3}
-                      PathCurve { y: background.height / 3}
-                      PathCurve {}
-                  }
-                  easing.type: Easing.InOutQuad
-                  duration: 2000
-              }
-          }
-      }
-      
-      Rectangle {
-        id: messageContainer
-        
-        anchors.centerIn: parent
-        visible: items.gameCompleted
-        clip: true
-        color: "transparent"
-        width:  childrenRect.width // 0
-        height: childrenRect.height // 0
-        
-        Behavior on width { //TODO: Review
-          animation: NumberAnimation {
-            duration: 3000
-            easing.type: Easing.InOutCubic
-          }
-        }
-        
-        Behavior on height {
-          animation: NumberAnimation {
-            duration: 3000
-            easing.type: Easing.InOutCubic
-          }
-        }
-        
-//         NumberAnimation { //TODO: Review
-//           id: widthAnim
-// 
-//           duration: 4000
-//           property: "width"
-//           target: messageContainer
-//           from: 0
-//           to: childrenRect.width
-//           easing.type: Easing.InOutCubic
-//         }
-//         
-//         NumberAnimation { //TODO: Review
-//           id: heightAnim
-//           
-//           duration: 4000
-//           property: "height"
-//           target: messageContainer
-//           from: 0
-//           to: childrenRect.height
-//           easing.type: Easing.InOutCubic
-//         }
-//         
-        RotationAnimation {
-          id: rotateAnim
-          
-          direction: RotationAnimation.Clockwise
-          property: "rotation"
-          target: messageContainer
-          from: 0
-          to: 5*360
-          duration: 3000
-          easing.type: Easing.InOutCubic
-          
-        }
-          
-//         Component.onCompleted: { //TODO: Delete
-//           console.log("onCompleted.width: " + width);
-//           console.log("onCompleted.implicitWidth  : " + implicitWidth);
-//         }        
-//         onImplicitWidthChanged: { //TODO: Delete
-//           console.log("implicitWidth: " + implicitWidth);
-//         }
-//         onWidthChanged: { //TODO: Delete
-//           console.log("width (change): " + width);
-//         }
-//         onYChanged: { //TODO: Delete
-//           console.log("Y: " + y);
-//         }  
-//         onXChanged: { //TODO: Delete
-//           console.log("X: " + x );
-//         }           
-//         
-        PlasmaComponents.Label {
-          id: winMessage
-          
-          //anchors.centerIn: parent
-          font.pointSize: theme.defaultFont.pointSize * (plasmoid.configuration.zoomlevel/100)
-          fontSizeMode: Text.Fit //Text.Fit vs Text.FixedSize 
-          horizontalAlignment: Text.AlignHCenter
-          verticalAlignment: Text.AlignVCenter
-          text: items.winMessage
-          wrapMode: Text.Wrap
-        }
-      }
-      
-      Row { 
-        id: bar
-        
-        height: 50
-        width: parent.width
-        anchors {
-          bottom: background.bottom
-          left: background.left
-          leftMargin : 5
-        }
-        spacing: 20
-      
-        
-        SpinBox {
-          id: userLevel
-          
-          width: 150
-          height: 30
-          minimumValue: 1
-          maximumValue: 3
-          prefix: i18n("Level: ")
-          style: Styles.SpinBoxStyle  {
-            id: levelSpinStyle
- 
-          }
-          
-          onValueChanged: {
-            Game.setLevel(userLevel.value-1);
-          }
-        }
-        
-        PlasmaComponents.Button { //TODO: Use icon?
-          id: startButton
-          
-          width:150
-          height: 30          
-          text: i18n("Play")
-          
-          onClicked: {
-            memoryGame.focus =  true;
-            Game.start(items);       
-//             console.log("Game started using memoryFile: " + memoryGame.kvtmlFile); //TODO: Remove
-          }
-        }
-        
       }
     }
+
+    ListModel {
+      id: containerModel
+    }
+
+    Grid { 
+      id: grid
+      
+      spacing: 15 
+      columns: items.columns
+      rows: items.rows
+      anchors {
+        leftMargin : 5
+        topMargin: 5
+        left: background.left
+        right: background.rigth
+        top: background.top
+      }
+
+      Repeater {
+        id: cardRepeater
+        model: containerModel
+
+        delegate: CardItem {
+          pairData: pairData_
+          width: (background.width - (grid.columns + 1) * grid.spacing) / grid.columns
+          height: (background.height - (grid.rows + 1) * grid.spacing) / (grid.rows + 0.5)
+        }
+      }
+
+      add: Transition {
+        PathAnimation {
+          path: Path {
+            PathCurve { x: background.width / 3}
+            PathCurve { y: background.height / 3}
+            PathCurve {}
+          }
+          easing.type: Easing.InOutQuad
+          duration: 2000
+          }
+      }
+    }
+    
+    Rectangle {
+      id: messageContainer
+      
+      anchors.centerIn: parent
+      visible: items.gameCompleted
+      clip: true
+      color: "transparent"
+      width:  1 //OLD: childrenRect.width 
+      height: 1 //OLD: childrenRect.height
+      
+//         Behavior on width { //TODO: Replace if childrenRect width is to be used
+//           animation: NumberAnimation {
+//             duration: 3000
+//             easing.type: Easing.InOutCubic
+//           }
+//         }
+//         
+//         Behavior on height {//TODO: Replace if childrenRect height is to be used
+//           animation: NumberAnimation {
+//             duration: 3000
+//             easing.type: Easing.InOutCubic
+//           }
+//         }
+      
+      NumberAnimation {
+        id: widthAnim
+
+        duration: 2500
+        property: "width"
+        target: messageContainer
+        from: 0
+        to: memoryGame.width * 3/4
+        easing.type: Easing.Linear  
+      }
+      
+      NumberAnimation {
+        id: heightAnim
+        
+        duration: 2500
+        property: "height"
+        target: messageContainer
+        from: 0
+        to: (memoryGame.height - bar.height) / 2
+        easing.type: Easing.Linear
+      }
+      
+      RotationAnimation {
+        id: rotateAnim
+        
+        direction: RotationAnimation.Clockwise
+        property: "rotation"
+        target: messageContainer
+        from: 0
+        to: 4*360
+        duration: 2500
+        easing.type: Easing.Linear
+        
+      }
+        
+      PlasmaComponents.Label {
+        id: winMessage
+        
+        width: messageContainer.width
+        height: messageContainer.height
+        //anchors.centerIn: parent
+        font.pointSize: theme.defaultFont.pointSize * (plasmoid.configuration.zoomlevel/100)
+        fontSizeMode: Text.Fit //Text.Fit vs Text.FixedSize 
+        horizontalAlignment: Text.AlignHCenter
+        verticalAlignment: Text.AlignVCenter
+        text: items.winMessage
+        wrapMode: Text.Wrap
+        style: Text.Raised
+        styleColor: theme.buttonBackgroundColor   
+      }
+    }
+    
+    Row { 
+      id: bar
+      
+      height: childrenRect.height
+      width: childrenRect.width
+      anchors {
+        bottom: background.bottom
+        left: background.left
+        leftMargin : 5
+      }
+      spacing: 20
+    
+      
+      SpinBox {
+        id: userLevel
+
+        minimumValue: 1
+        maximumValue: 3
+        prefix: i18n("Level: ")
+        style: Styles.SpinBoxStyle  {
+          id: levelSpinStyle
+
+        }
+        
+        onValueChanged: {
+          Game.setLevel(userLevel.value-1);
+        }
+      }
+      
+      PlasmaComponents.Button {
+        id: startButton
+        
+        text: i18n("Play")
+        
+        onClicked: {
+          memoryGame.focus =  true;
+          Game.start(items);       
+        }
+      }
+    }
+  }
 }
