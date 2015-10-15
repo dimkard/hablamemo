@@ -19,8 +19,8 @@
  *   along with this program; if not, see <http://www.gnu.org/licenses/>.
  */
  
-import QtQuick 2.1
-import QtQuick.Controls 1.1 as QtControls
+import QtQuick 2.4
+import QtQuick.Controls 1.3 as QtControls
 import QtQuick.Layouts 1.1 as QtLayouts
 import QtQuick.Dialogs 1.2 as Dialogs
 

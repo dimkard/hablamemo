@@ -22,7 +22,7 @@
  *   along with this program; if not, see <http://www.gnu.org/licenses/>.
  */
 .pragma library
-.import QtQuick 2.0 as Quick //TODO: Review
+.import QtQuick 2.4 as Quick //TODO: Review
 
 var items;
 var currentLevel = 0;
