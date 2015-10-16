@@ -137,30 +137,40 @@ Flipable {
     }
     radius : 20       
 
-//         PlasmaCore.Svg { //TODO: Replace if a non-installed icon is to be used
-//           id: centerIcon
-//           
-//           size: Qt.size(card.height/2, card.height/2)
-//           imagePath: "icons/start"
-//         }
-//         
-//         PlasmaCore.SvgItem {
-//           id: centerIconItem
-//           
-//           anchors.centerIn: parent
-//           width: card.height/2
-//           height: card.height/2  
-//           svg: centerIcon          
-//         }
+//     PlasmaCore.Svg { //TODO: Replace if a non-installed icon is to be used
+//     id: centerIcon
+//     
+//     size: Qt.size(card.height/2, card.height/2)
+//     imagePath: "icons/start"
+//   }
+//   
+//   PlasmaCore.SvgItem {
+//     id: centerIconItem
+//     
+//     anchors.centerIn: parent
+//     width: card.height/2
+//     height: card.height/2  
+//     svg: centerIcon          
+//     }
 
-    PlasmaCore.IconItem {
+//     PlasmaCore.IconItem {
+//       id: centerIconItem
+//       
+//       anchors.centerIn: parent
+//       width: (card.height < card.width) ? card.height*3/4 : card.width*3/4 
+//       height: (card.height < card.width) ? card.height*3/4 : card.width*3/4
+//       source: "copy"
+//     }
+
+    Image { //TODO: Review image source
       id: centerIconItem
       
       anchors.centerIn: parent
       width: (card.height < card.width) ? card.height*3/4 : card.width*3/4 
       height: (card.height < card.width) ? card.height*3/4 : card.width*3/4
-      source: "copy"
+      source: "resource/hablamemo-icon.png" // A"resource/pink-crane.png" //"resource/hablamemo-icon.png"
     }
+    
   }
 
   transform: Rotation {
