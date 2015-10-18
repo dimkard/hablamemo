@@ -168,7 +168,8 @@ Flipable {
       anchors.centerIn: parent
       width: (card.height < card.width) ? card.height*3/4 : card.width*3/4 
       height: (card.height < card.width) ? card.height*3/4 : card.width*3/4
-      source: "resource/hablamemo-icon.png" // A"resource/pink-crane.png" //"resource/hablamemo-icon.png"
+      source: "resource/hablamemo-backcard.png" // A"resource/pink-crane.png" //"resource/hablamemo-icon.png"
+      fillMode: Image.PreserveAspectFit 
     }
     
   }
