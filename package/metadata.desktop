@@ -1,8 +1,10 @@
 [Desktop Entry]
 Encoding=UTF-8
 Name=Hablamemo
+Name[el]=Hablamemo
 Comment=Memory game using configurable card sets
-Icon=copy
+Comment[el]=Παιχνίδι μνήμης με διαμορφώσιμα σύνολα καρτών
+Icon=hablamemo-icon.svg
 Type=Service
 X-KDE-ServiceTypes=Plasma/Applet,Plasma/PopupApplet
 

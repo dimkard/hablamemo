@@ -2,7 +2,7 @@
 mkdir -p tempstuff/package/contents
 #copy data
 cp -R package/contents/* tempstuff/package/contents/
-cp changelog.txt README LICENSE.GPL3 package/metadata.desktop tempstuff/package/
+cp changelog.txt README LICENSE.GPL3 hablamemo-icon.svg package/metadata.desktop tempstuff/package/ 
 #TODO: RECOVER icon
 
 #create locale //TODO:RECOVER
