@@ -11,7 +11,7 @@
       <max>500</max>
     </entry>
     <entry name="memoryfile" type="String">
-      <default></default>
+      <default>./resource/memory.kvtml</default>
     </entry>
     <entry name="useimages" type="Bool">
       <default>false</default>

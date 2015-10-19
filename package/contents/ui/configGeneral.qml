@@ -100,7 +100,7 @@ Item {
     
     title: i18n("Please choose a file")
     nameFilters: [ i18n("kvtml files") + " (*.kvtml)"]
-    
+    folder: "./resource"
     onAccepted: {
       memoryfile.text = fileDialog.fileUrl;      
     }
