@@ -1,1 +1,24 @@
+Hablamemo
+----------
 
+Description
+-----------
+Increase your memory skills while learning a new language. Create a vocabulary kvtml file (e.g. in Parley), load it to Hablamemo, select your level and you are ready! Image mode is also supported.
+
+
+Dependencies
+------------
+- Plasma 5.0 or later
+
+//TODO: Update after 15.10 testing
+
+Installation
+------------
+- Add Widgets... -> Get new widgets -> Download new plasma widgets
+
+
+License
+--------
+GNU GENERAL PUBLIC LICENSE Version 3
+
+Copyright (C) 2015 Dimitris Kardarakos <dimkard AT gmail DOT com>
