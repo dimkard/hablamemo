@@ -1,0 +1,1181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE kvtml PUBLIC "kvtml2.dtd" "http://edu.kde.org/kvtml/kvtml2.dtd">
+<kvtml version="2.0">
+  <information>
+    <generator>Parley 2.0.3</generator>
+    <title>Suena 4</title>
+    <author>Dimitris Kardarakos</author>
+    <contact>dimkard@gmail.com</contact>
+    <license>Public Domain</license>
+    <date>2015-10-20</date>
+    <category>Languages</category>
+  </information>
+  <identifiers>
+    <identifier id="0">
+      <name>Spanish</name>
+      <locale>es</locale>
+    </identifier>
+    <identifier id="1">
+      <name>Greek</name>
+      <locale>el</locale>
+    </identifier>
+  </identifiers>
+  <entries>
+    <entry id="0">
+      <translation id="0">
+        <text>rión</text>
+      </translation>
+      <translation id="1">
+        <text>νεφρό</text>
+      </translation>
+    </entry>
+    <entry id="1">
+      <translation id="0">
+        <text>acogedor</text>
+      </translation>
+      <translation id="1">
+        <text>φιλικός, ζεστός</text>
+      </translation>
+    </entry>
+    <entry id="2">
+      <translation id="0">
+        <text>respaldo</text>
+      </translation>
+      <translation id="1">
+        <text>πλάτη καρέκλας, καναπέ</text>
+      </translation>
+    </entry>
+    <entry id="3">
+      <translation id="0">
+        <text>caída</text>
+      </translation>
+      <translation id="1">
+        <text>πτώση</text>
+      </translation>
+    </entry>
+    <entry id="4">
+      <translation id="0">
+        <text>destinatario</text>
+      </translation>
+      <translation id="1">
+        <text>αποδέκτης</text>
+      </translation>
+    </entry>
+    <entry id="5">
+      <translation id="0">
+        <text>inmaterial</text>
+      </translation>
+      <translation id="1">
+        <text>άυλος</text>
+      </translation>
+    </entry>
+    <entry id="6">
+      <translation id="0">
+        <text>tope</text>
+      </translation>
+      <translation id="1">
+        <text>όριο</text>
+      </translation>
+    </entry>
+    <entry id="7">
+      <translation id="0">
+        <text>inminencia</text>
+      </translation>
+      <translation id="1">
+        <text>επικείμενη</text>
+      </translation>
+    </entry>
+    <entry id="8">
+      <translation id="0">
+        <text>anímico</text>
+      </translation>
+      <translation id="1">
+        <text>σχετικό με τη διάθεση</text>
+      </translation>
+    </entry>
+    <entry id="9">
+      <translation id="0">
+        <text>suegros</text>
+      </translation>
+      <translation id="1">
+        <text>πεθερικά</text>
+      </translation>
+    </entry>
+    <entry id="10">
+      <translation id="0">
+        <text>escalador</text>
+      </translation>
+      <translation id="1">
+        <text>ορειβάτης</text>
+      </translation>
+    </entry>
+    <entry id="11">
+      <translation id="0">
+        <text>aficionado</text>
+      </translation>
+      <translation id="1">
+        <text>ερασιτέχνης</text>
+      </translation>
+    </entry>
+    <entry id="12">
+      <translation id="0">
+        <text>turno de mañana</text>
+      </translation>
+      <translation id="1">
+        <text>πρωινή βάρδια</text>
+      </translation>
+    </entry>
+    <entry id="13">
+      <translation id="0">
+        <text>mudar</text>
+      </translation>
+      <translation id="1">
+        <text>μετακομίζω</text>
+      </translation>
+    </entry>
+    <entry id="14">
+      <translation id="0">
+        <text>aptitud</text>
+      </translation>
+      <translation id="1">
+        <text>ικανότητα</text>
+      </translation>
+    </entry>
+    <entry id="15">
+      <translation id="0">
+        <text>cuneta</text>
+      </translation>
+      <translation id="1">
+        <text>άκρη πεζοδρομίου</text>
+      </translation>
+    </entry>
+    <entry id="16">
+      <translation id="0">
+        <text>se sienta</text>
+      </translation>
+      <translation id="1">
+        <text>κάθεται</text>
+      </translation>
+    </entry>
+    <entry id="17">
+      <translation id="0">
+        <text>abastecer (de)</text>
+      </translation>
+      <translation id="1">
+        <text>παρέχω</text>
+      </translation>
+    </entry>
+    <entry id="18">
+      <translation id="0">
+        <text>afirmarse (en)</text>
+      </translation>
+      <translation id="1">
+        <text>υποστηρίζω, εμμένω</text>
+      </translation>
+    </entry>
+    <entry id="19">
+      <translation id="0">
+        <text>apiadarse (de)</text>
+      </translation>
+      <translation id="1">
+        <text>λυπάμαι, δείχνω οίκτο</text>
+      </translation>
+    </entry>
+    <entry id="20">
+      <translation id="0">
+        <text>apoyarse (en)</text>
+      </translation>
+      <translation id="1">
+        <text>στηρίζομαι, βασίζομαι</text>
+      </translation>
+    </entry>
+    <entry id="21">
+      <translation id="0">
+        <text>arraigar (en)</text>
+      </translation>
+      <translation id="1">
+        <text>ριζώνω</text>
+      </translation>
+    </entry>
+    <entry id="22">
+      <translation id="0">
+        <text>arremeter (contra)</text>
+      </translation>
+      <translation id="1">
+        <text>επιτίθεμαι</text>
+      </translation>
+    </entry>
+    <entry id="23">
+      <translation id="0">
+        <text>asistir (a)</text>
+      </translation>
+      <translation id="1">
+        <text>υποστηρίζω, παραβρίσκομαι</text>
+      </translation>
+    </entry>
+    <entry id="24">
+      <translation id="0">
+        <text>carecer (de)</text>
+      </translation>
+      <translation id="1">
+        <text>έχω έλλειψη</text>
+      </translation>
+    </entry>
+    <entry id="25">
+      <translation id="0">
+        <text>comprometerse (a/con)</text>
+      </translation>
+      <translation id="1">
+        <text>δεσμεύομαι, υπόσχομαι</text>
+      </translation>
+    </entry>
+    <entry id="26">
+      <translation id="0">
+        <text>conformarse (con)</text>
+      </translation>
+      <translation id="1">
+        <text>συμβιβάζομαι</text>
+      </translation>
+    </entry>
+    <entry id="27">
+      <translation id="0">
+        <text>consistir (en)</text>
+      </translation>
+      <translation id="1">
+        <text>συνίσταται, βασίζεται</text>
+      </translation>
+    </entry>
+    <entry id="28">
+      <translation id="0">
+        <text>convencerse (de)</text>
+      </translation>
+      <translation id="1">
+        <text>πείθομαι, πιστεύω</text>
+      </translation>
+    </entry>
+    <entry id="29">
+      <translation id="0">
+        <text>cumplir (con)</text>
+      </translation>
+      <translation id="1">
+        <text>εκπληρώνω / συμπληρώνω</text>
+      </translation>
+    </entry>
+    <entry id="30">
+      <translation id="0">
+        <text>despedirse (de)</text>
+      </translation>
+      <translation id="1">
+        <text>αποχαιρετώ</text>
+      </translation>
+    </entry>
+    <entry id="31">
+      <translation id="0">
+        <text>dirigirse (a)</text>
+      </translation>
+      <translation id="1">
+        <text>κατευθύνομαι</text>
+      </translation>
+    </entry>
+    <entry id="32">
+      <translation id="0">
+        <text>empeñarse (en)</text>
+      </translation>
+      <translation id="1">
+        <text>επιμένω</text>
+      </translation>
+    </entry>
+    <entry id="33">
+      <translation id="0">
+        <text>enterarse (de)</text>
+      </translation>
+      <translation id="1">
+        <text>μαθαίνω, αντιλαμβάνομαι</text>
+      </translation>
+    </entry>
+    <entry id="34">
+      <translation id="0">
+        <text>esmerarse (de)</text>
+      </translation>
+      <translation id="1">
+        <text>κοπιάζω, προσπαθώ</text>
+      </translation>
+    </entry>
+    <entry id="35">
+      <translation id="0">
+        <text>obstinarse (en + inf)</text>
+      </translation>
+      <translation id="1">
+        <text>πασχίζω να</text>
+      </translation>
+    </entry>
+    <entry id="36">
+      <translation id="0">
+        <text>ocuparse (de)</text>
+      </translation>
+      <translation id="1">
+        <text>αναλαμβάνω</text>
+      </translation>
+    </entry>
+    <entry id="37">
+      <translation id="0">
+        <text>presumir (de)</text>
+      </translation>
+      <translation id="1">
+        <text>καυχιέμαι</text>
+      </translation>
+    </entry>
+    <entry id="38">
+      <translation id="0">
+        <text>supeditar (a)</text>
+      </translation>
+      <translation id="1">
+        <text>εξαρτώμαι</text>
+      </translation>
+    </entry>
+    <entry id="39">
+      <translation id="0">
+        <text>flaco</text>
+      </translation>
+      <translation id="1">
+        <text>λεπτός, αδύνατος</text>
+      </translation>
+    </entry>
+    <entry id="40">
+      <translation id="0">
+        <text>paliducho</text>
+      </translation>
+      <translation id="1">
+        <text>χλωμός</text>
+      </translation>
+    </entry>
+    <entry id="41">
+      <translation id="0">
+        <text>holganza</text>
+      </translation>
+      <translation id="1">
+        <text>τεμπελιά</text>
+      </translation>
+    </entry>
+    <entry id="42">
+      <translation id="0">
+        <text>sacar de dudas</text>
+      </translation>
+      <translation id="1">
+        <text>αίρω αμφιβολίες</text>
+      </translation>
+    </entry>
+    <entry id="43">
+      <translation id="0">
+        <text>bache</text>
+      </translation>
+      <translation id="1">
+        <text>λακούβα / κατάθλιψη</text>
+      </translation>
+    </entry>
+    <entry id="44">
+      <translation id="0">
+        <text>sabio</text>
+      </translation>
+      <translation id="1">
+        <text>σοφός</text>
+      </translation>
+    </entry>
+    <entry id="45">
+      <translation id="0">
+        <text>superficie</text>
+      </translation>
+      <translation id="1">
+        <text>επιφάνεια</text>
+      </translation>
+    </entry>
+    <entry id="46">
+      <translation id="0">
+        <text>camilla</text>
+      </translation>
+      <translation id="1">
+        <text>φορείο</text>
+      </translation>
+    </entry>
+    <entry id="47">
+      <translation id="0">
+        <text>marearse</text>
+      </translation>
+      <translation id="1">
+        <text>ζαλίζομαι</text>
+      </translation>
+    </entry>
+    <entry id="48">
+      <translation id="0">
+        <text>angustia</text>
+      </translation>
+      <translation id="1">
+        <text>αγωνία</text>
+      </translation>
+    </entry>
+    <entry id="49">
+      <translation id="0">
+        <text>pisar</text>
+      </translation>
+      <translation id="1">
+        <text>βηματίζω</text>
+      </translation>
+    </entry>
+    <entry id="50">
+      <translation id="0">
+        <text>hilvanar</text>
+      </translation>
+      <translation id="1">
+        <text>ενώνω (ύφάσματα, σκέψεις)</text>
+      </translation>
+    </entry>
+    <entry id="51">
+      <translation id="0">
+        <text>pulsera</text>
+      </translation>
+      <translation id="1">
+        <text>βραχιόλι</text>
+      </translation>
+    </entry>
+    <entry id="52">
+      <translation id="0">
+        <text>devastar</text>
+      </translation>
+      <translation id="1">
+        <text>καταστρέφω</text>
+      </translation>
+    </entry>
+    <entry id="53">
+      <translation id="0">
+        <text>acontecimiento</text>
+      </translation>
+      <translation id="1">
+        <text>event, γεγονός</text>
+      </translation>
+    </entry>
+    <entry id="54">
+      <translation id="0">
+        <text>prescindir</text>
+      </translation>
+      <translation id="1">
+        <text>απαλάσσομαι, μπορώ χωρίς</text>
+      </translation>
+    </entry>
+    <entry id="55">
+      <translation id="0">
+        <text>matiz</text>
+      </translation>
+      <translation id="1">
+        <text>υπόνοια</text>
+      </translation>
+    </entry>
+    <entry id="56">
+      <translation id="0">
+        <text>asustar</text>
+      </translation>
+      <translation id="1">
+        <text>τρομάζω</text>
+      </translation>
+    </entry>
+    <entry id="57">
+      <translation id="0">
+        <text>echar de menos,</text>
+      </translation>
+      <translation id="1">
+        <text>μου λείπει</text>
+      </translation>
+    </entry>
+    <entry id="58">
+      <translation id="0">
+        <text>desempeñarse</text>
+      </translation>
+      <translation id="1">
+        <text>λειτουργώ ως</text>
+      </translation>
+    </entry>
+    <entry id="59">
+      <translation id="0">
+        <text>poseer</text>
+      </translation>
+      <translation id="1">
+        <text>κατέχω</text>
+      </translation>
+    </entry>
+    <entry id="60">
+      <translation id="0">
+        <text>hincapié</text>
+      </translation>
+      <translation id="1">
+        <text>έμφαση</text>
+      </translation>
+    </entry>
+    <entry id="61">
+      <translation id="0">
+        <text>partida</text>
+      </translation>
+      <translation id="1">
+        <text>αναχώρηση</text>
+      </translation>
+    </entry>
+    <entry id="62">
+      <translation id="0">
+        <text>a costa de</text>
+      </translation>
+      <translation id="1">
+        <text>εις βάρος</text>
+      </translation>
+    </entry>
+    <entry id="63">
+      <translation id="0">
+        <text>apostar</text>
+      </translation>
+      <translation id="1">
+        <text>στοιχηματίζω</text>
+      </translation>
+    </entry>
+    <entry id="64">
+      <translation id="0">
+        <text>rehusar</text>
+      </translation>
+      <translation id="1">
+        <text>αρνιέμαι</text>
+      </translation>
+    </entry>
+    <entry id="65">
+      <translation id="0">
+        <text>comportarse</text>
+      </translation>
+      <translation id="1">
+        <text>συμπεριφέρομαι σωστά</text>
+      </translation>
+    </entry>
+    <entry id="66">
+      <translation id="0">
+        <text>acceder</text>
+      </translation>
+      <translation id="1">
+        <text>συμφωνώ</text>
+      </translation>
+    </entry>
+    <entry id="67">
+      <translation id="0">
+        <text>contemplar</text>
+      </translation>
+      <translation id="1">
+        <text>κοιτάω / λαμβάνω υπόψιν</text>
+      </translation>
+    </entry>
+    <entry id="68">
+      <translation id="0">
+        <text>alborotarse</text>
+      </translation>
+      <translation id="1">
+        <text>αναστατώνομαι</text>
+      </translation>
+    </entry>
+    <entry id="69">
+      <translation id="0">
+        <text>a partir de</text>
+      </translation>
+      <translation id="1">
+        <text>από/με βάση</text>
+      </translation>
+    </entry>
+    <entry id="70">
+      <translation id="0">
+        <text>alabar</text>
+      </translation>
+      <translation id="1">
+        <text>επαινώ, επεφημώ</text>
+      </translation>
+    </entry>
+    <entry id="71">
+      <translation id="0">
+        <text>rama</text>
+      </translation>
+      <translation id="1">
+        <text>κλαδί</text>
+      </translation>
+    </entry>
+    <entry id="72">
+      <translation id="0">
+        <text>vara</text>
+      </translation>
+      <translation id="1">
+        <text>ραβδί / κλαδί</text>
+      </translation>
+    </entry>
+    <entry id="73">
+      <translation id="0">
+        <text>partir</text>
+      </translation>
+      <translation id="1">
+        <text>χωρίζω σε κομμάτια / φεύγω</text>
+      </translation>
+    </entry>
+    <entry id="74">
+      <translation id="0">
+        <text>sobreentender</text>
+      </translation>
+      <translation id="1">
+        <text>καταλαβαίνω απόλυτα</text>
+      </translation>
+    </entry>
+    <entry id="75">
+      <translation id="0">
+        <text>trozo</text>
+      </translation>
+      <translation id="1">
+        <text>κομμάτι</text>
+      </translation>
+    </entry>
+    <entry id="76">
+      <translation id="0">
+        <text>venir a la mente</text>
+      </translation>
+      <translation id="1">
+        <text>έρχεται στο μυαλό</text>
+      </translation>
+    </entry>
+    <entry id="77">
+      <translation id="0">
+        <text>pedazo</text>
+      </translation>
+      <translation id="1">
+        <text>κομμάτι</text>
+      </translation>
+    </entry>
+    <entry id="78">
+      <translation id="0">
+        <text>aludir</text>
+      </translation>
+      <translation id="1">
+        <text>αναφέρομαι</text>
+      </translation>
+    </entry>
+    <entry id="79">
+      <translation id="0">
+        <text>barranca</text>
+      </translation>
+      <translation id="1">
+        <text>χαράδρα</text>
+      </translation>
+    </entry>
+    <entry id="80">
+      <translation id="0">
+        <text>parto</text>
+      </translation>
+      <translation id="1">
+        <text>τοκετός</text>
+      </translation>
+    </entry>
+    <entry id="81">
+      <translation id="0">
+        <text>odiar</text>
+      </translation>
+      <translation id="1">
+        <text>μισώ</text>
+      </translation>
+    </entry>
+    <entry id="82">
+      <translation id="0">
+        <text>engaño</text>
+      </translation>
+      <translation id="1">
+        <text>τρικ, απάτη</text>
+      </translation>
+    </entry>
+    <entry id="83">
+      <translation id="0">
+        <text>prender</text>
+      </translation>
+      <translation id="1">
+        <text>βάζω φωτιά</text>
+      </translation>
+    </entry>
+    <entry id="84">
+      <translation id="0">
+        <text>gruta</text>
+      </translation>
+      <translation id="1">
+        <text>σπηλιά</text>
+      </translation>
+    </entry>
+    <entry id="85">
+      <translation id="0">
+        <text>arco</text>
+      </translation>
+      <translation id="1">
+        <text>τόξο</text>
+      </translation>
+    </entry>
+    <entry id="86">
+      <translation id="0">
+        <text>flecha</text>
+      </translation>
+      <translation id="1">
+        <text>βέλος</text>
+      </translation>
+    </entry>
+    <entry id="87">
+      <translation id="0">
+        <text>ciervo</text>
+      </translation>
+      <translation id="1">
+        <text>ελάφι</text>
+      </translation>
+    </entry>
+    <entry id="88">
+      <translation id="0">
+        <text>asombrar</text>
+      </translation>
+      <translation id="1">
+        <text>εκπλήσσομαι</text>
+      </translation>
+    </entry>
+    <entry id="89">
+      <translation id="0">
+        <text>con pelas y señales</text>
+      </translation>
+      <translation id="1">
+        <text>με πολύ λεπτομέρεια</text>
+      </translation>
+    </entry>
+    <entry id="90">
+      <translation id="0">
+        <text>regañar</text>
+      </translation>
+      <translation id="1">
+        <text>μαλώνω</text>
+      </translation>
+    </entry>
+    <entry id="91">
+      <translation id="0">
+        <text>a regañadientes</text>
+      </translation>
+      <translation id="1">
+        <text>με γκρίνια, με το ζόρι</text>
+      </translation>
+    </entry>
+    <entry id="92">
+      <translation id="0">
+        <text>chupeta</text>
+      </translation>
+      <translation id="1">
+        <text>πιπίλα</text>
+      </translation>
+    </entry>
+    <entry id="93">
+      <translation id="0">
+        <text>a la plancha</text>
+      </translation>
+      <translation id="1">
+        <text>στη σχάρα</text>
+      </translation>
+    </entry>
+    <entry id="94">
+      <translation id="0">
+        <text>en menos que canta un gallo</text>
+      </translation>
+      <translation id="1">
+        <text>πολύ γρήγορα</text>
+      </translation>
+    </entry>
+    <entry id="95">
+      <translation id="0">
+        <text>en cuclillas</text>
+      </translation>
+      <translation id="1">
+        <text>σκυμμένος, καθιστός</text>
+      </translation>
+    </entry>
+    <entry id="96">
+      <translation id="0">
+        <text>a gatas</text>
+      </translation>
+      <translation id="1">
+        <text>μπουσουλώντας</text>
+      </translation>
+    </entry>
+    <entry id="97">
+      <translation id="0">
+        <text>a tientas</text>
+      </translation>
+      <translation id="1">
+        <text>στα τυφλά</text>
+      </translation>
+    </entry>
+    <entry id="98">
+      <translation id="0">
+        <text>a bomba y platillo</text>
+      </translation>
+      <translation id="1">
+        <text>με τυμπανοκρουσίες</text>
+      </translation>
+    </entry>
+    <entry id="99">
+      <translation id="0">
+        <text>a capa y espalda</text>
+      </translation>
+      <translation id="1">
+        <text>με όλη μου τη δύναμη, την ψυχή</text>
+      </translation>
+    </entry>
+    <entry id="100">
+      <translation id="0">
+        <text>a la fuerza</text>
+      </translation>
+      <translation id="1">
+        <text>με το ζόρι</text>
+      </translation>
+    </entry>
+    <entry id="101">
+      <translation id="0">
+        <text>a cien por hora</text>
+      </translation>
+      <translation id="1">
+        <text>γρήγορα</text>
+      </translation>
+    </entry>
+    <entry id="102">
+      <translation id="0">
+        <text>a gusto</text>
+      </translation>
+      <translation id="1">
+        <text>μια χαρά</text>
+      </translation>
+    </entry>
+    <entry id="103">
+      <translation id="0">
+        <text>a empujones</text>
+      </translation>
+      <translation id="1">
+        <text>σπρώχνοντας</text>
+      </translation>
+    </entry>
+    <entry id="104">
+      <translation id="0">
+        <text>a lo loco</text>
+      </translation>
+      <translation id="1">
+        <text>τρελά</text>
+      </translation>
+    </entry>
+    <entry id="105">
+      <translation id="0">
+        <text>a duras penas</text>
+      </translation>
+      <translation id="1">
+        <text>ίσα ίσα</text>
+      </translation>
+    </entry>
+    <entry id="106">
+      <translation id="0">
+        <text>a pedir de boca</text>
+      </translation>
+      <translation id="1">
+        <text>σαν να ήταν παραγγελία</text>
+      </translation>
+    </entry>
+    <entry id="107">
+      <translation id="0">
+        <text>a la brasa</text>
+      </translation>
+      <translation id="1">
+        <text>στα κάρβουνα</text>
+      </translation>
+    </entry>
+    <entry id="108">
+      <translation id="0">
+        <text>de carrerilla</text>
+      </translation>
+      <translation id="1">
+        <text>παπαγαλία</text>
+      </translation>
+    </entry>
+    <entry id="109">
+      <translation id="0">
+        <text>de cabo a rabo</text>
+      </translation>
+      <translation id="1">
+        <text>από την αρχή ως το τέλος</text>
+      </translation>
+    </entry>
+    <entry id="110">
+      <translation id="0">
+        <text>de gorra</text>
+      </translation>
+      <translation id="1">
+        <text>κάνω τράκα</text>
+      </translation>
+    </entry>
+    <entry id="111">
+      <translation id="0">
+        <text>de confianza</text>
+      </translation>
+      <translation id="1">
+        <text>με οικειότητα</text>
+      </translation>
+    </entry>
+    <entry id="112">
+      <translation id="0">
+        <text>en serio</text>
+      </translation>
+      <translation id="1">
+        <text>σοβαρά</text>
+      </translation>
+    </entry>
+    <entry id="113">
+      <translation id="0">
+        <text>en fila india</text>
+      </translation>
+      <translation id="1">
+        <text>ο ένας πίσω από τον άλλο</text>
+      </translation>
+    </entry>
+    <entry id="114">
+      <translation id="0">
+        <text>a bulto</text>
+      </translation>
+      <translation id="1">
+        <text>σαν μπουλούκι</text>
+      </translation>
+    </entry>
+    <entry id="115">
+      <translation id="0">
+        <text>tomarse en serio</text>
+      </translation>
+      <translation id="1">
+        <text>το παίρνω σοβαρά</text>
+      </translation>
+    </entry>
+    <entry id="116">
+      <translation id="0">
+        <text>desengañado</text>
+      </translation>
+      <translation id="1">
+        <text>απογοητευμένος</text>
+      </translation>
+    </entry>
+    <entry id="117">
+      <translation id="0">
+        <text>a las duras y a las maduras</text>
+      </translation>
+      <translation id="1">
+        <text>στα καλά και στα άσχημα</text>
+      </translation>
+    </entry>
+    <entry id="118">
+      <translation id="0">
+        <text>me trae al fresco / me trae sin cuidado</text>
+      </translation>
+      <translation id="1">
+        <text>δε με νοιάζει (vulgar)</text>
+      </translation>
+    </entry>
+    <entry id="119">
+      <translation id="0">
+        <text>me importa un pimiento</text>
+      </translation>
+      <translation id="1">
+        <text>δε με νοιάζει (informal)</text>
+      </translation>
+    </entry>
+    <entry id="120">
+      <translation id="0">
+        <text>me es igual /no es asunto mio</text>
+      </translation>
+      <translation id="1">
+        <text>δε με νοιάζει / δε με ενδιαφέρει</text>
+      </translation>
+    </entry>
+    <entry id="121">
+      <translation id="0">
+        <text>eso no va conmigo / ni me va ni me viene</text>
+      </translation>
+      <translation id="1">
+        <text>δε με ενδιαφέρει / δε με νοιάζει</text>
+      </translation>
+    </entry>
+    <entry id="122">
+      <translation id="0">
+        <text>beca</text>
+      </translation>
+      <translation id="1">
+        <text>υποτροφία</text>
+      </translation>
+    </entry>
+    <entry id="123">
+      <translation id="0">
+        <text>adrede</text>
+      </translation>
+      <translation id="1">
+        <text>επίτηδες</text>
+      </translation>
+    </entry>
+  </entries>
+  <lessons>
+    <container>
+      <name>Lesson 1</name>
+      <inpractice>true</inpractice>
+      <entry id="0"/>
+      <entry id="1"/>
+      <entry id="2"/>
+      <entry id="3"/>
+      <entry id="4"/>
+      <entry id="5"/>
+      <entry id="6"/>
+      <entry id="7"/>
+      <entry id="8"/>
+      <entry id="9"/>
+      <entry id="10"/>
+      <entry id="11"/>
+      <entry id="12"/>
+      <entry id="13"/>
+      <entry id="14"/>
+      <entry id="15"/>
+      <entry id="16"/>
+      <entry id="17"/>
+      <entry id="18"/>
+      <entry id="19"/>
+      <entry id="20"/>
+      <entry id="21"/>
+      <entry id="22"/>
+      <entry id="23"/>
+      <entry id="24"/>
+      <entry id="25"/>
+      <entry id="26"/>
+      <entry id="27"/>
+      <entry id="28"/>
+      <entry id="29"/>
+      <entry id="30"/>
+      <entry id="31"/>
+      <entry id="32"/>
+      <entry id="33"/>
+      <entry id="34"/>
+      <entry id="35"/>
+      <entry id="36"/>
+      <entry id="37"/>
+      <entry id="38"/>
+      <entry id="39"/>
+      <entry id="40"/>
+      <entry id="41"/>
+      <entry id="42"/>
+      <entry id="43"/>
+      <entry id="44"/>
+      <entry id="45"/>
+      <entry id="46"/>
+      <entry id="47"/>
+      <entry id="48"/>
+      <entry id="49"/>
+      <entry id="50"/>
+      <entry id="51"/>
+      <entry id="52"/>
+      <entry id="53"/>
+      <entry id="54"/>
+      <entry id="55"/>
+      <entry id="56"/>
+      <entry id="57"/>
+      <entry id="58"/>
+      <entry id="59"/>
+      <entry id="60"/>
+      <entry id="61"/>
+      <entry id="62"/>
+      <entry id="63"/>
+      <entry id="64"/>
+      <entry id="65"/>
+      <entry id="66"/>
+      <entry id="67"/>
+      <entry id="68"/>
+      <entry id="69"/>
+      <entry id="70"/>
+      <entry id="71"/>
+      <entry id="72"/>
+      <entry id="73"/>
+      <entry id="74"/>
+      <entry id="75"/>
+      <entry id="76"/>
+      <entry id="77"/>
+      <entry id="78"/>
+      <entry id="79"/>
+      <entry id="80"/>
+      <entry id="81"/>
+      <entry id="82"/>
+      <entry id="83"/>
+      <entry id="84"/>
+      <entry id="85"/>
+      <entry id="86"/>
+      <entry id="87"/>
+      <entry id="88"/>
+      <entry id="89"/>
+      <entry id="90"/>
+      <entry id="91"/>
+      <entry id="92"/>
+      <entry id="93"/>
+      <entry id="94"/>
+      <entry id="95"/>
+      <entry id="96"/>
+      <entry id="97"/>
+      <entry id="98"/>
+      <entry id="99"/>
+      <entry id="100"/>
+      <entry id="101"/>
+      <entry id="102"/>
+      <entry id="103"/>
+      <entry id="104"/>
+      <entry id="105"/>
+      <entry id="106"/>
+      <entry id="107"/>
+      <entry id="108"/>
+      <entry id="109"/>
+      <entry id="110"/>
+      <entry id="111"/>
+      <entry id="112"/>
+      <entry id="113"/>
+      <entry id="114"/>
+      <entry id="115"/>
+      <entry id="116"/>
+      <entry id="117"/>
+      <entry id="118"/>
+      <entry id="119"/>
+      <entry id="120"/>
+      <entry id="121"/>
+      <entry id="122"/>
+      <entry id="123"/>
+    </container>
+  </lessons>
+  <wordtypes>
+    <container>
+      <name>Noun</name>
+      <specialwordtype>noun</specialwordtype>
+      <container>
+        <name>Masculine</name>
+        <specialwordtype>noun/male</specialwordtype>
+      </container>
+      <container>
+        <name>Feminine</name>
+        <specialwordtype>noun/female</specialwordtype>
+      </container>
+      <container>
+        <name>Neuter</name>
+        <specialwordtype>noun/neutral</specialwordtype>
+      </container>
+    </container>
+    <container>
+      <name>Verb</name>
+      <specialwordtype>verb</specialwordtype>
+    </container>
+    <container>
+      <name>Adjective</name>
+      <specialwordtype>adjective</specialwordtype>
+    </container>
+    <container>
+      <name>Adverb</name>
+      <specialwordtype>adverb</specialwordtype>
+    </container>
+    <container>
+      <name>Conjunction</name>
+      <specialwordtype>conjunction</specialwordtype>
+    </container>
+  </wordtypes>
+</kvtml>
