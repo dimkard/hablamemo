@@ -2,7 +2,7 @@
 Encoding=UTF-8
 _Name=Hablamemo
 _Comment=Memory game using configurable card sets
-Icon=hablamemo-icon.svg
+Icon=hablamemo-icon
 Type=Service
 X-KDE-ServiceTypes=Plasma/Applet,Plasma/PopupApplet
 

@@ -4,7 +4,7 @@ Name=Hablamemo
 Name[el]=Hablamemo
 Comment=Memory game using configurable card sets
 Comment[el]=Παιχνίδι μνήμης με διαμορφώσιμα σύνολα καρτών
-Icon=hablamemo-icon.svg
+Icon=hablamemo-icon
 Type=Service
 X-KDE-ServiceTypes=Plasma/Applet,Plasma/PopupApplet
 
