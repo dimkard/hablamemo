@@ -2,7 +2,7 @@
 mkdir -p tempstuff/package/contents
 #copy data
 cp -R package/contents/* tempstuff/package/contents/
-cp changelog.txt README LICENSE.GPL3 hablamemo-icon.svg package/metadata.desktop tempstuff/package/ 
+cp changelog.txt README LICENSE.GPL3 icons/hablamemo-icon.svgz package/metadata.desktop tempstuff/package/ 
 #create locale
 mkdir -p tempstuff/package/contents/locale/el/LC_MESSAGES
 msgfmt po/el.po --output-file po/el.mo
