@@ -17,7 +17,21 @@ Dependencies
 
 Installation
 ------------
-- Add Widgets... -> Get new widgets -> Download new plasma widgets
+- Unzip the archive
+- $ mkdir build
+- $ cd build
+- $ cmake -DCMAKE_INSTALL_PREFIX=/usr ..
+- $ make
+- $ (sudo) make install
+- "Hablamemo widget is now available to add to desktop/panel.
+
+In Kubuntu 15.10 the following packages have been installed for a proper build to take place:
+
+- cmake
+- plasma-framework-dev
+- extra-cmake-modules
+- build-essential
+- qml-module-qtquick-xmllistmodel
 
 
 License
