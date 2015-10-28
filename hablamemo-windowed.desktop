@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Hablamemo
+Name[el]=Hablamemo
+MimeType=application/x-kvtml;
+Exec=plasmawindowed org.kde.hablamemo
+Icon=hablamemo-icon
+Type=Application
+Terminal=false
+Categories=Qt;KDE;Education;Languages;
+GenericName=Memory game
+GenericName[el]=Παιχνίδι μνήμης
