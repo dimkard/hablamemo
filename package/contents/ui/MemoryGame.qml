@@ -71,7 +71,7 @@ Item {
         var messageStage = "";
         if (gameCompleted == true) {
           messageStage = i18n("Game completed!\n");
-          messageStage = messageStage + " " + i18n("Mistakes:" + " " + (items.numOfTries - items.playerScore) + "\n");
+          messageStage = messageStage + " " + i18n("Mistakes") + ": " + (items.numOfTries - items.playerScore) + "\n";
           messageStage = messageStage + i18n("Press 'Play' to start again.");
           items.winMessage = messageStage;
           rotateAnim.start();

@@ -1,21 +1,21 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
-# , 2015.
+# Dimitris Kardarakos <dimkard@gmail.com>, 2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://github.com/dimkard/package/\n"
-"POT-Creation-Date: 2015-11-02 09:35+0200\n"
-"PO-Revision-Date: 2015-10-18 17:17+0300\n"
-"Last-Translator: \n"
+"POT-Creation-Date: 2015-11-02 10:52+0200\n"
+"PO-Revision-Date: 2015-11-02 10:52+0200\n"
+"Last-Translator: Dimitris Kardarakos <dimkard@gmail.com>\n"
 "Language-Team: Greek <kde-i18n-doc@kde.org>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: package/contents/config/config.qml:28
 msgid "General"
@@ -50,8 +50,8 @@ msgid "Game completed!\n"
 msgstr "Τέλος παιχνιδιού!\n"
 
 #: package/contents/ui/MemoryGame.qml:74
-msgid "Mistakes:"
-msgstr "Λάθη:"
+msgid "Mistakes"
+msgstr "Λάθη"
 
 #: package/contents/ui/MemoryGame.qml:75
 msgid "Press 'Play' to start again."
@@ -82,3 +82,4 @@ msgstr "Hablamemo"
 #: po/rc.cpp:4 rc.cpp:4
 msgid "Memory game using configurable card sets"
 msgstr "Παιχνίδι μνήμης με διαμορφώσιμα σύνολα καρτών"
+
