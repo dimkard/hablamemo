@@ -3,10 +3,9 @@ Hablamemo
 
 Description
 -----------
-Increase your memory skills while learning a new language. Create a vocabulary kvtml file (e.g. in Parley), load it to Hablamemo, select your level and you are ready! Image mode is also supported. Hablamemo widgets comes with a sample of spanish-english and spanish-greek vocabulary files. You are stronly encouraged to use your own vocabulary files.
+Increase your memory skills while learning a new language. Create a vocabulary kvtml file (e.g. in Parley), load it to Hablamemo, select your level and you are ready! Image mode is also supported. Hablamemo widget comes with a sample of spanish-english and spanish-greek vocabulary files. You are stronly encouraged to use your own vocabulary files.
 
-//TODO: Reference to GCompris
-
+Many parts of the code as well as the gameplay itself are based on memory activity of GCompris (GPL V3+).
 
 Dependencies
 ------------
@@ -23,7 +22,8 @@ Installation
 - $ cmake -DCMAKE_INSTALL_PREFIX=/usr ..
 - $ make
 - $ (sudo) make install
-- "Hablamemo widget is now available to add to desktop/panel.
+- Hablamemo widget is now available to be added to desktop/panel.
+- Widget can be opened in windowed mode as well (Application > Education > Languages)
 
 In Kubuntu 15.10 the following packages have been installed for a proper build to take place:
 
