@@ -5,7 +5,7 @@ Description
 -----------
 Increase your memory skills while learning a new language. Create a vocabulary kvtml file (e.g. in Parley), load it to Hablamemo, select your level and you are ready! Image mode is also supported. Hablamemo widget comes with a sample of spanish-english and spanish-greek vocabulary files. You are stronly encouraged to use your own vocabulary files.
 
-Many parts of the code as well as the gameplay itself are based on memory activity of GCompris (GPL V3+).
+Many parts of the code as well as the gameplay itself are based on memory activity of GCompris: http://gcompris.net.
 
 Dependencies
 ------------
