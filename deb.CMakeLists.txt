@@ -1,13 +1,20 @@
 project(hablamemo)
- 
+
 cmake_minimum_required(VERSION 2.8.12 FATAL_ERROR)
+
+find_package(ECM 0.0.11 REQUIRED NO_MODULE)
+
+set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH} ${ECM_KDE_MODULE_DIR})
+
 find_package(KF5Plasma)
- 
+
 #include(KDE4Defaults)
 
-install(DIRECTORY package/ DESTINATION ${DATA_INSTALL_DIR}/plasma/plasmoids/org.kde.hablamemo)
+#install(DIRECTORY package/ DESTINATION ${DATA_INSTALL_DIR}/plasma/plasmoids/org.kde.hablamemo)
  
-install(FILES package/metadata.desktop DESTINATION ${SERVICES_INSTALL_DIR} RENAME plasma-applet-org.kde.hablamemo.desktop)
+plasma_install_package(package org.kde.hablamemo plasmoids applet)
+ 
+#install(FILES package/metadata.desktop DESTINATION ${SERVICES_INSTALL_DIR} RENAME plasma-applet-org.kde.hablamemo.desktop)
         
 install(FILES icons/hablamemo-icon.svgz DESTINATION ${ICON_INSTALL_DIR}/hicolor/scalable/apps)
 
@@ -57,13 +64,15 @@ IF(EXISTS "${CMAKE_ROOT}/Modules/CPack.cmake")
 
 INCLUDE(InstallRequiredSystemLibraries)
  
-SET(CPACK_PACKAGING_INSTALL_PREFIX "/tmp")
+#SET(CPACK_PACKAGING_INSTALL_PREFIX "/usr")
 SET(CPACK_GENERATOR "DEB")
  
-SET(CPACK_PACKAGE_DESCRIPTION "Hablamemo")
 SET(CPACK_PACKAGE_DESCRIPTION_SUMMARY "Hablamemo")
+SET(CPACK_PACKAGE_DESCRIPTION_FILE "${CMAKE_CURRENT_SOURCE_DIR}/README")
+SET(CPACK_RESOURCE_FILE_LICENSE "${CMAKE_CURRENT_SOURCE_DIR}/LICENSE.GPL3")
 SET(CPACK_PACKAGE_VENDOR "dimkard")
 SET(CPACK_PACKAGE_CONTACT "dimkard@gmail.com")
+SET(CPACK_DEBIAN_PACKAGE_HOMEPAGE "https://github.com/dimkard/hablamemo")
 SET(CPACK_PACKAGE_VERSION_MAJOR "${MAJOR_VERSION}")
 SET(CPACK_PACKAGE_VERSION_MINOR "${MINOR_VERSION}")
 SET(CPACK_PACKAGE_VERSION_PATCH "${PATCH_VERSION}")
