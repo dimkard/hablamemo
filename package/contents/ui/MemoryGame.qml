@@ -153,18 +153,18 @@ Item {
       NumberAnimation {
         id: widthAnim
 
-        duration: 2500
+        duration: 750
         property: "width"
         target: messageContainer
         from: 0
         to: memoryGame.width * 3/4
-        easing.type: Easing.Linear  
+        easing.type: Easing.Linear
       }
       
       NumberAnimation {
         id: heightAnim
         
-        duration: 2500
+        duration: 750
         property: "height"
         target: messageContainer
         from: 0
@@ -175,14 +175,13 @@ Item {
       RotationAnimation {
         id: rotateAnim
         
-        direction: RotationAnimation.Clockwise
+        duration: 750
         property: "rotation"
         target: messageContainer
         from: 0
-        to: 4*360
-        duration: 2500
+        to: 2*360
         easing.type: Easing.Linear
-        
+        direction: RotationAnimation.Clockwise
       }
         
       PlasmaComponents.Label {
