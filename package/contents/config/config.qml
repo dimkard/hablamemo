@@ -1,8 +1,8 @@
- /* hablamemo - config.qml
+/* hablamemo - config.qml
  *
- * 
- * Copyright (C) 2015 Dimitris Kardarakos <dimkard@gmail.com> 
- * 
+ *
+ * Copyright (C) 2015 Dimitris Kardarakos <dimkard@gmail.com>
+ *
  * Authors:
  *   Dimitris Kardarakos <dimkard@gmail.com>
  *
@@ -24,9 +24,14 @@ import QtQuick 2.4
 import org.kde.plasma.configuration 2.0
 
 ConfigModel {
-  ConfigCategory {
-    name: i18n("General")
-    icon: "plasma"
-    source: "configGeneral.qml"
-  }
+    ConfigCategory {
+        name: i18n("Appearance")
+        icon: "plasma"
+        source: "configAppearance.qml"
+    }
+    ConfigCategory {
+        name: i18n("Files")
+        icon: "text-plain"
+        source: "configFiles.qml"
+    }
 }
