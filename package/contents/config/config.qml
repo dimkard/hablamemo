@@ -1,7 +1,7 @@
 /* hablamemo - config.qml
  *
  *
- * Copyright (C) 2015 Dimitris Kardarakos <dimkard@gmail.com>
+ * Copyright (C) 2017 Dimitris Kardarakos <dimkard@gmail.com>
  *
  * Authors:
  *   Dimitris Kardarakos <dimkard@gmail.com>

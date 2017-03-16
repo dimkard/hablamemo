@@ -19,23 +19,15 @@ Installation
 - Unzip the archive
 - $ mkdir build
 - $ cd build
-- $ cmake -DCMAKE_INSTALL_PREFIX=/usr ..
+- $ cmake -DCMAKE_INSTALL_PREFIX=/usr/local ..
 - $ make
 - $ (sudo) make install
 - Hablamemo widget is now available to be added to desktop/panel.
 - Widget can be opened in windowed mode as well (Application > Education > Languages)
-
-In Kubuntu 15.10 the following packages have been installed for a proper build to take place:
-
-- cmake
-- plasma-framework-dev
-- extra-cmake-modules
-- build-essential
-- qml-module-qtquick-xmllistmodel
 
 
 License
 --------
 GNU GENERAL PUBLIC LICENSE Version 3
 
-Copyright (C) 2015 Dimitris Kardarakos <dimkard AT gmail DOT com>
+Copyright (C) 2017 Dimitris Kardarakos <dimkard AT gmail DOT com>
