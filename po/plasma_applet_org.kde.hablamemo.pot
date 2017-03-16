@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://github.com/dimkard/package/\n"
-"POT-Creation-Date: 2015-11-02 10:52+0200\n"
+"POT-Creation-Date: 2017-03-16 14:00+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,30 +18,38 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: package/contents/config/config.qml:28
-msgid "General"
+msgid "Appearance"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:54
+#: package/contents/config/config.qml:33
+msgid "Files"
+msgstr ""
+
+#: package/contents/ui/configAppearance.qml:52
 msgid "Text zoom level:"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:67
-msgid "Memory file:"
-msgstr ""
-
-#: package/contents/ui/configGeneral.qml:79
-msgid "Path to a .kvtml file ..."
-msgstr ""
-
-#: package/contents/ui/configGeneral.qml:93
+#: package/contents/ui/configAppearance.qml:65
 msgid "Use images if available"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:101
+#: package/contents/ui/configFiles.qml:51
+msgid "Memory file:"
+msgstr ""
+
+#: package/contents/ui/configFiles.qml:63
+msgid "Path to a .kvtml file ..."
+msgstr ""
+
+#: package/contents/ui/configFiles.qml:74
+msgid "Download new files..."
+msgstr ""
+
+#: package/contents/ui/configFiles.qml:87
 msgid "Please choose a file"
 msgstr ""
 
-#: package/contents/ui/configGeneral.qml:102
+#: package/contents/ui/configFiles.qml:88
 msgid "kvtml files"
 msgstr ""
 
@@ -57,11 +65,11 @@ msgstr ""
 msgid "Press 'Play' to start again."
 msgstr ""
 
-#: package/contents/ui/MemoryGame.qml:223
+#: package/contents/ui/MemoryGame.qml:222
 msgid "Level: "
 msgstr ""
 
-#: package/contents/ui/MemoryGame.qml:237
+#: package/contents/ui/MemoryGame.qml:236
 msgid "Play"
 msgstr ""
 

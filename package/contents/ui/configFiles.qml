@@ -71,7 +71,7 @@ Item {
                 }
                 QtControls.Button {
                     id: downloadButton
-                    text: "Download new files..."
+                    text: i18n("Download new files...")
 
                     onClicked: {
                         Qt.openUrlExternally("https://store.kde.org/browse/cat/216/order/latest");

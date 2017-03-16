@@ -1,13 +1,13 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Dimitris Kardarakos <dimkard@gmail.com>, 2015.
+# Dimitris Kardarakos <dimkard@gmail.com>, 2015, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://github.com/dimkard/package/\n"
-"POT-Creation-Date: 2015-11-02 10:52+0200\n"
-"PO-Revision-Date: 2015-11-02 10:52+0200\n"
+"POT-Creation-Date: 2017-03-16 14:00+0200\n"
+"PO-Revision-Date: 2017-03-16 14:00+0200\n"
 "Last-Translator: Dimitris Kardarakos <dimkard@gmail.com>\n"
 "Language-Team: Greek <kde-i18n-doc@kde.org>\n"
 "Language: el\n"
@@ -18,30 +18,38 @@ msgstr ""
 "X-Generator: Lokalize 2.0\n"
 
 #: package/contents/config/config.qml:28
-msgid "General"
-msgstr "Γενικά"
+msgid "Appearance"
+msgstr "Εμφάνιση"
 
-#: package/contents/ui/configGeneral.qml:54
+#: package/contents/config/config.qml:33
+msgid "Files"
+msgstr "Αρχεία"
+
+#: package/contents/ui/configAppearance.qml:52
 msgid "Text zoom level:"
 msgstr "Βαθμός μεγέθυνσης γραμματοσειράς:"
 
-#: package/contents/ui/configGeneral.qml:67
-msgid "Memory file:"
-msgstr "Αρχείο:"
-
-#: package/contents/ui/configGeneral.qml:79
-msgid "Path to a .kvtml file ..."
-msgstr "Διαδρομή για το αρχείο .kvtml ..."
-
-#: package/contents/ui/configGeneral.qml:93
+#: package/contents/ui/configAppearance.qml:65
 msgid "Use images if available"
 msgstr "Χρήση εικόνων αν είναι διαθέσιμες"
 
-#: package/contents/ui/configGeneral.qml:101
+#: package/contents/ui/configFiles.qml:51
+msgid "Memory file:"
+msgstr "Αρχείο:"
+
+#: package/contents/ui/configFiles.qml:63
+msgid "Path to a .kvtml file ..."
+msgstr "Διαδρομή για το αρχείο .kvtml ..."
+
+#: package/contents/ui/configFiles.qml:74
+msgid "Download new files..."
+msgstr "Λήψη νέων αρχείων αρχείων..."
+
+#: package/contents/ui/configFiles.qml:87
 msgid "Please choose a file"
 msgstr "Παρακαλώ επιλέξτε αρχείο"
 
-#: package/contents/ui/configGeneral.qml:102
+#: package/contents/ui/configFiles.qml:88
 msgid "kvtml files"
 msgstr "αρχεία kvtml"
 
@@ -57,11 +65,11 @@ msgstr "Λάθη"
 msgid "Press 'Play' to start again."
 msgstr "Πατήστε 'Έναρξη' για νέο παιχνίδι."
 
-#: package/contents/ui/MemoryGame.qml:223
+#: package/contents/ui/MemoryGame.qml:222
 msgid "Level: "
 msgstr "Επίπεδο:"
 
-#: package/contents/ui/MemoryGame.qml:237
+#: package/contents/ui/MemoryGame.qml:236
 msgid "Play"
 msgstr "Έναρξη"
 
@@ -83,3 +91,5 @@ msgstr "Hablamemo"
 msgid "Memory game using configurable card sets"
 msgstr "Παιχνίδι μνήμης με διαμορφώσιμα σύνολα καρτών"
 
+#~ msgid "General"
+#~ msgstr "Γενικά"
