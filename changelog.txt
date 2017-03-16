@@ -1,7 +1,14 @@
-Version 1.0.0
--------------
-Initial version
+Version 1.1
+-----------
+Button to download files added
+Duration of hint increased
+Reduce duration of game over animation
 
 Version 1.0.1
 -------------
 Fix translation issue
+
+Version 1.0.0
+-------------
+Initial version
+
