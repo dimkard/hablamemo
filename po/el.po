@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://github.com/dimkard/package/\n"
 "POT-Creation-Date: 2017-03-16 14:00+0200\n"
-"PO-Revision-Date: 2017-03-16 14:00+0200\n"
+"PO-Revision-Date: 2017-03-16 14:09+0200\n"
 "Last-Translator: Dimitris Kardarakos <dimkard@gmail.com>\n"
 "Language-Team: Greek <kde-i18n-doc@kde.org>\n"
 "Language: el\n"
@@ -43,7 +43,7 @@ msgstr "Διαδρομή για το αρχείο .kvtml ..."
 
 #: package/contents/ui/configFiles.qml:74
 msgid "Download new files..."
-msgstr "Λήψη νέων αρχείων αρχείων..."
+msgstr "Λήψη νέων αρχείων..."
 
 #: package/contents/ui/configFiles.qml:87
 msgid "Please choose a file"
