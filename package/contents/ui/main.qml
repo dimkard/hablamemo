@@ -46,7 +46,7 @@ MemoryGame {
       rows: 3,
       images: memorygame.images,
       texts: memorygame.texts,
-      hintTime: 6000
+      hintTime: 10000
     }
     ,
     { // Level 3
@@ -54,7 +54,7 @@ MemoryGame {
       rows: 4,
       images: memorygame.images,
       texts: memorygame.texts,
-      hintTime: 10000
+      hintTime: 16000
     }
   ]
     
